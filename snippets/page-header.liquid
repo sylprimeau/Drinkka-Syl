@@ -1,0 +1,10 @@
+
+<header class="page-header em-effect06">
+  <div class="images em-eff06-03">
+    {% if collection.image %}
+      {{ collection.image.src | collection_img_url: 'master' | img_tag: collection_title }}
+      {% else %}
+      
+      {% endif %}
+  </div>
+</header>
