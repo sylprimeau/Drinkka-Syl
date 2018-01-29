@@ -899,7 +899,7 @@
                             }
                           }
                         }
-                        s = s.split(" ").splice(0, 20).join(" ") + "...";
+//                        s = s.split(" ").splice(0, 20).join(" ") + "...";
                         i.find('.product-description').text(s);
                     } else {
                         i.find('.product-description').remove();
