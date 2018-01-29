@@ -438,7 +438,7 @@ sections/newsletter.liquid:
 sections/product-loadmore.liquid:
   development: 2018-01-29T11:35:41+08:00   6f10889d2652e111c9c23d8220a533cd
 sections/product-template.liquid:
-  development: 2018-01-29T11:35:41+08:00   4b516939ea1f86aff794ee0362072040
+  development: 2018-01-29T12:37:37+08:00   09683d324e2a90fb507f9adccd4edbd7
 sections/slideshow.liquid:
   development: 2018-01-29T11:35:41+08:00   eea2e18b253a09bf46d94d71bcfdf700
 sections/tabs-product.liquid:
