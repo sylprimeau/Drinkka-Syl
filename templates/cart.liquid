@@ -34,7 +34,8 @@
                 <td class="image">
                   <div class="product_image">
                     <a href="{{ item.url }}">
-                      <img src="{{ item | img_url: 'compact' }}"  alt="{{ item.product.title }}" />
+                      <img src="{{ item | img_url: 'compact' }}"  alt="{{ item.product.title }}
+<span class='lion-cart-item-success-notes' data-key='{{item.key}}'></span><span class='lion-cart-item-upsell-notes' data-key='{{item.key}}'></span>" />
                     </a>
                   </div>
                   <a class="remove-cart" href="/cart/change?line={{ forloop.index }}&quantity=0" class="cart"><i class="cs-font clever-icon-close"></i></a>
@@ -42,6 +43,7 @@
                 <td class="item">
                   <a href="{{ item.url }}">
                     {{ item.product.title }}
+<span class='lion-cart-item-success-notes' data-key='{{item.key}}'></span><span class='lion-cart-item-upsell-notes' data-key='{{item.key}}'></span>
 <span class="saso-cart-item-discount-notes" data-key="{{item.key}}"></span>
 <span class="saso-cart-item-upsell-notes" data-key="{{item.key}}"></span>                                
                                 
@@ -54,7 +56,7 @@
                   <input type="text" size="4" name="updates[]" id="updates_{{ item.id }}" value="{{ item.quantity }}" onfocus="this.select();" class="tc item-quantity" />
                 </td>
                 <td class="price">
-<span class="saso-cart-item-line-price" data-key="{{item.key}}">{{ item.line_price | money }}</span>
+<span class="saso-cart-item-line-price" data-key="{{item.key}}"><span class='lion-cart-item-line-price' data-key='{{item.key}}'>{{ item.line_price | money }}</span></span>
 </td>
               </tr>
               {% endfor %}
@@ -65,8 +67,8 @@
         <div class="col-md-4 col-sm-4 subtotal-container">
           <div class="subtotal"><p class="t-title" {% if settings.enable_multilang %}data-translate="page_cart.total_price"{%endif%}>{{ 'page_cart.total_price' | t }} :</p>
             <p class="price"><span class="total"><strong>
-<span class="saso-cart-original-total">{{ cart.total_price | money }}</span>
-<span class="saso-cart-total"></span>
+<span class=""><span class="lion-original-cart-total">{{ cart.total_price | money }}</span><span class="lion-cart-total"></span><div class="additional-notes"><span class="lion-minimums-note"></span><span class="lion-extra-note "></span></div></span>
+<span class=""></span>
 </strong></span></p>
           </div>
           <div class="cart-comment">

@@ -139,5 +139,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {% include 'special-offers' %}
 <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Organization", "name" : "Drinkka", "description": "", "image" : "", "telephone" : "2147483647", "email" : "aldric@drinkka.com", "address" : { "@type" : "PostalAddress", "streetAddress" : "7391 Building 9 Bakawan Street", "addressLocality" : "Makati City", "addressRegion" : "Makati City", "addressCountry" : "PH", "postalCode" : "1203" }, "openingHoursSpecification" : { "@type" : "OpeningHoursSpecification", "dayOfWeek" : { "@type" : "DayOfWeek", "name" : "Monday" }, "openingHours": "Mo,Tu,We,Th ", "url" : "http://www.drinkka.com" } } </script>
+
+      {% if customer.tags.size > 0 %}
+        {% include 'lion-wholesale' %}
+      {% endif %}
+    
 </body>
 </html>

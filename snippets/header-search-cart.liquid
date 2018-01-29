@@ -85,7 +85,8 @@
               <a href="{{item.url}}" title="{{item.title}}" class="product-image"><img src="{{ item.image | product_img_url: 'small' }}" alt="{{item.title}}"></a>
               <div class="product-inner">
 
-                <p class="product-name"><a href="{{item.url}}">{{ item.product.title }}</a></p>
+                <p class="product-name"><a href="{{item.url}}">{{ item.product.title }}
+<span class='lion-cart-item-success-notes' data-key='{{item.key}}'></span><span class='lion-cart-item-upsell-notes' data-key='{{item.key}}'></span></a></p>
                 <div class="option">
                   {% if item.product.variants.size != 0 %}
                   {% unless item.variant.title contains 'Default' %}
