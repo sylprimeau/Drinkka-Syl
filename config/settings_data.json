@@ -2385,7 +2385,7 @@
             "settings": {
               "width": "16%",
               "customtext_position": "text-left",
-              "footer_customtext": "<p style=\"font-size:24px; font-family:karla;\"><strong>About Us<\/strong><\/p>\n<br>\n\n<p style=\"font-size:18px; font-family:karla;\">Never worry about running low! We’re here to make sure your glass is always full with our extensive online selection of drinks that can be delivered to your doorstep within 90 minutes. <\/p>"
+              "footer_customtext": "<h3>About Us<\/h3>\n<p>Never worry about running low! We’re here to make sure your glass is always full with our extensive online selection of drinks that can be delivered to your doorstep within 90 minutes.<\/p>"
             }
           },
           "1516336094155": {
@@ -2393,41 +2393,23 @@
             "settings": {
               "width": "16%",
               "customtext_position": "text-left",
-              "footer_customtext": "<p style=\"font-size:24px; font-family:karla;\"><strong>Contact Us<\/strong><\/p>\n<br>\n\n<p style=\"font-size:18px; font-family:karla;\">Are you thirsty for more information? Let’s have a chat! Send us a message\n<br><br>\nEmail us at: hello@drinkka.com\n<br>\nCall us at: +63917-593-3892\n<\/p>"
+              "footer_customtext": "<h3>Contact Us<\/h3>\n<p>Are you thirsty for more information? Let’s have a chat! Send us a message\nEmail us at: hello@drinkka.com\n<br>\nCall us at: +63917-593-3892\n<\/p>"
             }
           },
-          "1516335720139": {
-            "type": "menu",
+          "1517289483346": {
+            "type": "customtext",
             "settings": {
               "width": "16%",
-              "menu_layout": "vertical",
-              "menu_position": "text-left",
-              "footer_heading": "<p style=\"font-size:20px; font-family:karla;\"><strong>Get to Know Us<\/strong><\/p>",
-              "footercol1": "footer"
+              "customtext_position": "text-left",
+              "footer_customtext": "<h3>Know Us<\/h3>\n<a href=\"\/pages\/about-us\">Who we are<\/a>\n<a href=\"\/pages\/partner-with-us\">Partner with us<\/a>\n<a href=\"\/pages\/contact-us\">Contact Us<\/a>"
             }
           },
-          "1507212504741": {
-            "type": "iconsocial",
+          "1517289754026": {
+            "type": "customtext",
             "settings": {
-              "width": "34%",
-              "iconsocial_layout": "vertical",
-              "iconsocial_position": "text-left",
-              "footer_column_3_title": "<p style=\"font-size:20px; font-family:karla;\"><strong>Follow Us<\/strong><\/p>",
-              "footer_column_4_icon_1": "cs-font clever-icon-facebook",
-              "footer_column_4_icon_link_1": "https:\/\/web.facebook.com\/getdrinkka\/",
-              "footer_column_4_icon_title_1": "Facebook",
-              "footer_column_4_icon_2": "cs-font clever-icon-instagram",
-              "footer_column_4_icon_link_2": "https:\/\/www.instagram.com\/getdrinkka\/",
-              "footer_column_4_icon_title_2": "Instagram",
-              "footer_column_4_icon_3": "",
-              "footer_column_4_icon_link_3": "",
-              "footer_column_4_icon_title_3": "",
-              "footer_column_4_icon_4": "",
-              "footer_column_4_icon_link_4": "",
-              "footer_column_4_icon_title_4": "",
-              "footer_column_4_icon_5": "",
-              "footer_column_4_icon_link_5": "",
-              "footer_column_4_icon_title_5": ""
+              "width": "16%",
+              "customtext_position": "text-left",
+              "footer_customtext": "<h3>Follow Us<\/h3>\n<a href=\"https:\/\/web.facebook.com\/getdrinkka\/\"><i class=\"cs-font clever-icon-facebook\"><\/i><span>Facebook<\/span><\/a>\n\n<a href=\"https:\/\/www.instagram.com\/getdrinkka\/\"><i class=\"cs-font clever-icon-instagram\"><\/i><span>Instagram<\/span><\/a>"
             }
           },
           "1496911500036": {
@@ -2442,8 +2424,8 @@
         "block_order": [
           "1516336021026",
           "1516336094155",
-          "1516335720139",
-          "1507212504741",
+          "1517289483346",
+          "1517289754026",
           "1496911500036"
         ],
         "settings": {
