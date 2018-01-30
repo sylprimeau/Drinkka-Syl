@@ -66,7 +66,7 @@ Check if the product is sold out and set a variable to be used below.
                 <img src="{{ '' | product_img_url: 'grande' }}" alt="">
               </div>
               {% else %}
-              {% if product.images.size > 1 %} 
+              {% if product.images.size > 1 %}
               <div id="zt_list_product" class="thumbs col-xs-12 col-sm-4 col-md-1">
                 <ul id="more-view-carousel" class="product-photo-thumbs jcarousel-skin-tango">
                   {% for image in product.images %}
@@ -80,7 +80,7 @@ Check if the product is sold out and set a variable to be used below.
               </div>
 
               {% endif %}
-              <div class="col-xs-12 col-sm-12 col-md-5 product-img-blur hidden-xs">
+              <div class="col-xs-12 col-sm-5 col-md-5 product-img-blur hidden-xs">
                 {% if lable_sale or lable_out %}
                 <div class="product-label">
                   {% if lable_sale %}
@@ -128,7 +128,7 @@ Check if the product is sold out and set a variable to be used below.
                   <img id="product-featured-image" src="{{ featured_image | img_url: 'master' }}" alt="{{ featured_image.alt | escape }}" data-zoom-image="{{ featured_image.src | img_url: 'master' }}"/>
                 </a>
 
-                {% if product.images.size > 1 %}		
+                {% if product.images.size > 1 %}
 
                 <div id="zt_list_product" class="thumbs">
                   {% for image in product.images %}
@@ -196,7 +196,7 @@ Check if the product is sold out and set a variable to be used below.
               </div>
               <div class="col-xs-12 col-sm-1 hidden-md col-lg-1 product-shop"></div>
 
-              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 product-shop">
+              <div class="col-xs-12 col-sm-5 col-md-6 col-lg-5 product-shop">
                 {% else %}
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
                   <div class="thumb-image-carousel">
@@ -263,7 +263,7 @@ Check if the product is sold out and set a variable to be used below.
                       <span class="price" itemprop="price">{{ product.price | money }}</span>
                       {% endif %}
                     </div>
-                    {% if section.settings.display_product_reviews %}       
+                    {% if section.settings.display_product_reviews %}
                     <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
                     {% endif %}
                     {% if product.description contains "[countdown]" %}
@@ -291,14 +291,14 @@ Check if the product is sold out and set a variable to be used below.
                     {% assign short_description_first = product.description | split:'[/short-description]' | first %}
                     {% assign short_description_final = count_down_first | split:'[short-description]' | last %}
                     <div class="short-description">
-                      {% capture modulo %}{% include "content-shortcode" content: product.description shortcode: "[short-description]" %}{% endcapture %}    
+                      {% capture modulo %}{% include "content-shortcode" content: product.description shortcode: "[short-description]" %}{% endcapture %}
 
                       {% if settings.enable_multilang %}
                       <div class="lang1">{{ modulo | split: '|' | first }}</div>
                       <div class="lang2">{{ modulo | split: '|' | last   }}</div>
                       {% else %}
                       {{ modulo | split: '|' | first  }}
-                      {% endif %} 
+                      {% endif %}
                     </div>
                     {% else %}
                     <p class="short-description">{{ content | strip_html }}</p>
@@ -310,8 +310,8 @@ Check if the product is sold out and set a variable to be used below.
 
                       <div id="product-variants">
                         {% assign variantCount = product.variants | size %}
-                        {% if product.available %} 
-                        {% if variantCount > 1 %}	
+                        {% if product.available %}
+                        {% if variantCount > 1 %}
                         <select id="product-selectors" name="id" style="display:none">
                           {% for variant in product.variants %}
                           <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>
@@ -346,12 +346,12 @@ Check if the product is sold out and set a variable to be used below.
                       <link itemprop="availability" href="http://schema.org/InStock">
                       {% else %}
                       <link itemprop="availability" href="http://schema.org/OutOfStock">
-                      {% endif %} 
+                      {% endif %}
 
 
 
                       <div class="clear_fix">
-                        {% if product.available %} 
+                        {% if product.available %}
                         {% if section.settings.show_quantity_selector %}
                         <div class="wrap-qty">
                           <div class="custom-qty">
@@ -365,9 +365,9 @@ Check if the product is sold out and set a variable to be used below.
                         {% endif %}
 
 
-                        <button type="submit" name="add" class="btn" id="product-add-to-cart" {% if settings.enable_multilang %}data-translate="product.detail.add_cart"{%endif%}>{{'product.detail.add_cart' | t}}</button>   
-                        {% else %} 
-                        <button type="submit" name="add" class="btn unavailable-button" id=" product-add-to-cart"{% if settings.enable_multilang %}data-translate="product.detail.unavailable"{%endif%}>{{'product.detail.unavailable' | t}}</button>        
+                        <button type="submit" name="add" class="btn" id="product-add-to-cart" {% if settings.enable_multilang %}data-translate="product.detail.add_cart"{%endif%}>{{'product.detail.add_cart' | t}}</button>
+                        {% else %}
+                        <button type="submit" name="add" class="btn unavailable-button" id=" product-add-to-cart"{% if settings.enable_multilang %}data-translate="product.detail.unavailable"{%endif%}>{{'product.detail.unavailable' | t}}</button>
                         {% endif %}
                       </div>
                     </form>
@@ -420,7 +420,7 @@ Check if the product is sold out and set a variable to be used below.
                               <div class="share-product-text" {% if settings.enable_multilang %}data-translate="product.detail.share_text"{%endif%}> {{'product.detail.share_text' | t}} </div>
                               <h1>{{ product.title }}</h1>
                             </div>
-                            <div class="product_socials_wrapper_inner"> 
+                            <div class="product_socials_wrapper_inner">
                               {% capture share_url %}{{ shop.url }}{{ product.url }}{% endcapture %}
                               {% if section.settings.icon_isocal_2 != blank %}
                               <a href="//twitter.com/share?url={{ share_url }}&text={{ product.title }}" target="_blank" class="twitter" title="Twitter"><i class='cs-font clever-icon-twitter'></i></a>
@@ -468,7 +468,7 @@ Check if the product is sold out and set a variable to be used below.
               </a></li>
             {% endif %}
 
-            {% if section.settings.product_customtabs_1 %}       
+            {% if section.settings.product_customtabs_1 %}
             <li><a data-toggle="tab" href="#collapse-tab3">
               {% if settings.enable_multilang %}
               <span class="lang1">{{ section.settings.product_customtabs_title_1 | split: '|' | first }}</span>
@@ -478,8 +478,8 @@ Check if the product is sold out and set a variable to be used below.
               {% endif %}
               </a></li>
             {% endif %}
-            {% if section.settings.product_customtabs_2 %}       
-            <li><a data-toggle="tab" href="#collapse-tab4"> 
+            {% if section.settings.product_customtabs_2 %}
+            <li><a data-toggle="tab" href="#collapse-tab4">
               {% if settings.enable_multilang %}
               <span class="lang1">{{ section.settings.product_customtabs_title_2 | split: '|' | first }}</span>
               <span class="lang2">{{ section.settings.product_customtabs_title_2 | split: '|' | last   }}</span>
@@ -487,7 +487,7 @@ Check if the product is sold out and set a variable to be used below.
               {{ section.settings.product_customtabs_title_2 | split: '|' | first  }}
               {% endif %}</a></li>
             {% endif %}
-            {% if section.settings.product_customtabs_3 %}       
+            {% if section.settings.product_customtabs_3 %}
             <li><a data-toggle="tab" href="#collapse-tab5">
               {% if settings.enable_multilang %}
               <span class="lang1">{{ section.settings.product_customtabs_title_3 | split: '|' | first }}</span>
@@ -497,17 +497,17 @@ Check if the product is sold out and set a variable to be used below.
               {% endif %}
               </a></li>
             {% endif %}
-            {% if section.settings.display_product_reviews %}       
+            {% if section.settings.display_product_reviews %}
             <li {% if active %}class="active" {% assign active = false %} {% endif %}>
               <a href="#collapse-tab6" data-toggle="tab" class="text-uppercase">
 
-                {% capture title_tabs %}{% include 'product-tab-content-shortcode' content: _tab shortcode: 'name' %}{% endcapture %} 
+                {% capture title_tabs %}{% include 'product-tab-content-shortcode' content: _tab shortcode: 'name' %}{% endcapture %}
                 {% if settings.enable_multilang %}
                 <span class="lang1">{{ section.settings.product_review_title | split: '|' | first }}</span>
                 <span class="lang2">{{ section.settings.product_review_title | split: '|' | last   }}</span>
                 {% else %}
                 {{ section.settings.product_review_title | split: '|' | first  }}
-                {% endif %} 
+                {% endif %}
               </a>
             </li>
             {% endif %}
@@ -537,7 +537,7 @@ Check if the product is sold out and set a variable to be used below.
             {% endif %}
 
 
-            {% if section.settings.product_customtabs_1 %}       
+            {% if section.settings.product_customtabs_1 %}
             <div id="collapse-tab3" class="tab-pane fade">
               {% if settings.enable_multilang %}
               <div class="lang1">{{ section.settings.product_customtabs_content_1 | split: '|' | first }}</div>
@@ -548,7 +548,7 @@ Check if the product is sold out and set a variable to be used below.
             </div>
             {% endif %}
 
-            {% if section.settings.product_customtabs_2 %}       
+            {% if section.settings.product_customtabs_2 %}
             <div id="collapse-tab4" class="tab-pane fade">
               {% if settings.enable_multilang %}
               <div class="lang1">{{ section.settings.product_customtabs_content_2 | split: '|' | first }}</div>
@@ -559,7 +559,7 @@ Check if the product is sold out and set a variable to be used below.
             </div>
             {% endif %}
 
-            {% if section.settings.product_customtabs_3 %}       
+            {% if section.settings.product_customtabs_3 %}
             <div id="collapse-tab5" class="tab-pane fade">
               {% if settings.enable_multilang %}
               <div class="lang1">{{ section.settings.product_customtabs_content_3 | split: '|' | first }}</div>
@@ -570,7 +570,7 @@ Check if the product is sold out and set a variable to be used below.
             </div>
             {% endif %}
 
-            {% if section.settings.display_product_reviews %}       
+            {% if section.settings.display_product_reviews %}
             <div id="collapse-tab6" class="tab-pane fade">
 
               <span id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</span>
@@ -584,13 +584,13 @@ Check if the product is sold out and set a variable to be used below.
             {% for _tab in tabs %}
             <div class="tab-pane fade " id="collapse-tab-{{ forloop.index }}">
 
-              {% capture content_tabs %}{% include 'product-tab-content-shortcode' content: _tab %}{% endcapture %} 
+              {% capture content_tabs %}{% include 'product-tab-content-shortcode' content: _tab %}{% endcapture %}
               {% if settings.enable_multilang %}
               <div class="lang1">{{ content_tabs | split: '|' | first }}</div>
               <div class="lang2">{{ content_tabs | split: '|' | last   }}</div>
               {% else %}
               {{ content_tabs | split: '|' | first  }}
-              {% endif %} 
+              {% endif %}
             </div>
             {% endfor %}
             {% endif %}
@@ -616,7 +616,7 @@ Check if the product is sold out and set a variable to be used below.
           disableOn: 767,
           type: 'iframe',
           removalDelay: 160,
-          preloader: false,			
+          preloader: false,
           fixedContentPos: false
         });
 
@@ -625,7 +625,7 @@ Check if the product is sold out and set a variable to be used below.
     {% endif %}
     {% if section.settings.style_thumb_image == 'ticky'%}
     <script>
-      jQuery(document).ready(function(){ 
+      jQuery(document).ready(function(){
         jQuery(".product-featured-image").elevateZoom({
           gallery: "zt_list_products",
           zoomType	: "inner",
@@ -723,7 +723,7 @@ Check if the product is sold out and set a variable to be used below.
     </script>
     {% else %}
     <script>
-      jQuery(window).load(function() { 
+      jQuery(window).load(function() {
         jQuery('#zt_list_product .owl-wrapper .owl-item').first().find('a').addClass('zoomGalleryActive');
       });
       jQuery("#zt_list_product").owlCarousel({
@@ -861,14 +861,14 @@ Check if the product is sold out and set a variable to be used below.
             for (i = 0; i < option_data.length; ++i) {
               if (option_data[i].option1 == selected_option1) {
                 html += "<div class='image-item'>";
-                html += "<a data-value-1='" 
+                html += "<a data-value-1='"
                 + option_data[i].option1
                 + "' data-value-2='"
                 + option_data[i].option2
-                + "' data-image='" 
-                + option_data[i].image 
-                + "' data-zoom-image='" 
-                + option_data[i].image 
+                + "' data-image='"
+                + option_data[i].image
+                + "' data-zoom-image='"
+                + option_data[i].image
                 + "' class=''>";
                 html += "<img src='" + option_data[i].image + "' alt='' class=''>";
                 html += "</a>";
@@ -916,14 +916,14 @@ Check if the product is sold out and set a variable to be used below.
             for (i = 0; i < option_data.length; ++i) {
               if (option_data[i].option1 == selected_option1) {
                 html += "<li class='image-item'>";
-                html += "<a data-value-1='" 
+                html += "<a data-value-1='"
                 + option_data[i].option1
                 + "' data-value-2='"
                 + option_data[i].option2
-                + "' data-image='" 
-                + option_data[i].image 
-                + "' data-zoom-image='" 
-                + option_data[i].image 
+                + "' data-image='"
+                + option_data[i].image
+                + "' data-zoom-image='"
+                + option_data[i].image
                 + "' class=''>";
                 html += "<img src='" + option_data[i].image + "' alt='' class=''>";
                 html += "</a>";
@@ -1001,7 +1001,7 @@ Check if the product is sold out and set a variable to be used below.
 
       //Shopify.Image.preload({{ product.images | json }}, 'grande');
 
-      {% if section.settings.display_subtotal and product.available %} 
+      {% if section.settings.display_subtotal and product.available %}
       //update price when changing quantity
       function updatePricing() {
         //try pattern one before pattern 2
@@ -1010,11 +1010,11 @@ Check if the product is sold out and set a variable to be used below.
 
         if (!unitPriceTextMatch) {
           regex = /([0-9]+[.|,][0-9]+)/g;
-          unitPriceTextMatch = jQuery('.product .price').text().match(regex);      
+          unitPriceTextMatch = jQuery('.product .price').text().match(regex);
         }
 
         if (unitPriceTextMatch) {
-          var unitPriceText = unitPriceTextMatch[0];      
+          var unitPriceText = unitPriceTextMatch[0];
           var unitPrice = unitPriceText.replace(/[.|,]/g,'');
           var quantity = parseInt(jQuery('#quantity').val());
           var totalPrice = unitPrice * quantity;
@@ -1023,10 +1023,10 @@ Check if the product is sold out and set a variable to be used below.
 
           totalPriceText = totalPriceText.match(regex)[0];
 
-          var regInput = new RegExp(unitPriceText, "g");  
-          var totalPriceHtml = jQuery('.product .price').html().replace(regInput ,totalPriceText); 
+          var regInput = new RegExp(unitPriceText, "g");
+          var totalPriceHtml = jQuery('.product .price').html().replace(regInput ,totalPriceText);
 
-          jQuery('.product .total-price span').html(totalPriceHtml);      
+          jQuery('.product .total-price span').html(totalPriceHtml);
         }
       }
       jQuery('#quantity').on('change', updatePricing);
@@ -1036,7 +1036,7 @@ Check if the product is sold out and set a variable to be used below.
 
         var addToCart = jQuery('#product-add-to-cart'),
             productPrice = jQuery('.product .price'),
-            comparePrice = jQuery('.product .compare-price');  
+            comparePrice = jQuery('.product .compare-price');
 
         if (variant) {
           if (variant.available) {
@@ -1073,7 +1073,7 @@ Check if the product is sold out and set a variable to be used below.
         // END SWATCHES
         {% endif %}
 
-        {% if section.settings.display_subtotal and product.available %}  
+        {% if section.settings.display_subtotal and product.available %}
         updatePricing();
         {% endif %}
 
@@ -1132,11 +1132,11 @@ Check if the product is sold out and set a variable to be used below.
             console.log('2ff'+grandSize);
             if (grandSize == newImageSizedSrc) {
               jQuery(this).addClass('active');
-              jQuery(this).parent().trigger('click'); 
+              jQuery(this).parent().trigger('click');
               return false;
             }
           });
-        });        
+        });
       }
 
 
@@ -1162,7 +1162,7 @@ Check if the product is sold out and set a variable to be used below.
             afterMove: function (elem) {
 
             }
-          }); 
+          });
         });
       });
 
@@ -1170,16 +1170,16 @@ Check if the product is sold out and set a variable to be used below.
         {% if product.available and product.variants.size > 1 %}
         new Shopify.OptionSelectors('product-selectors', {
           product: {{ product | json }},
-          onVariantSelected: selectCallback, 
+          onVariantSelected: selectCallback,
           enableHistoryState: true
-        });   
+        });
 
         {% comment %}
         Use color swatch and linked options (copyright by @carolineschnapp)
         {% endcomment %}
         {% if section.settings.use_color_swatch and product.available and product.options.size > 1 %}
         Shopify.linkOptionSelectors({{ product | json }});
-        {% endif %} 
+        {% endif %}
 
         {% if section.settings.use_color_swatch != true %}
         jQuery('.single-option-selector').selectize();
@@ -1209,7 +1209,7 @@ Check if the product is sold out and set a variable to be used below.
         {% endif %}
         {% endfor %}
 
-        {% if section.settings.display_product_reviews %}  
+        {% if section.settings.display_product_reviews %}
         var reviewsTimeout = setInterval(function() {
           if (jQuery(".spr-badge-caption").length>0) {
             jQuery(".spr-badge-caption").on('click', function() {
@@ -1230,7 +1230,7 @@ Check if the product is sold out and set a variable to be used below.
 
     <div class="related-w">
 
-      {% if section.settings.display_related_products %} 
+      {% if section.settings.display_related_products %}
       {% if section.settings.related_products_type == "tags" %}
       {% include 'related-products-by-tags' %}
       {% else %}
