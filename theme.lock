@@ -12,7 +12,11 @@ assets/ElegantIcons.woff:
 assets/FontAwesome.otf:
   development: 2018-01-29T12:41:03+08:00   668743fe7258676f8ef8f9b47d2a623e
 assets/ajax.jquery.js:
+<<<<<<< HEAD
   development: 2018-01-29T17:32:33+08:00   a1686e1b52784deca54d7c6418b2c3ee
+=======
+  development: 2018-01-29T17:29:00+08:00   41c295b5a9c46cf5545e1c4e3b326105
+>>>>>>> 8f10a852540173ef350334f283116aca70583527
 assets/animate.css:
   development: 2018-01-29T12:41:03+08:00   7f791c80901353411852a4810cfa231d
 assets/bannereditor.css:
@@ -330,7 +334,11 @@ assets/pink.png:
 assets/red.png:
   development: 2018-01-29T12:41:31+08:00   a208d4c2d434375a305c16184562ad15
 assets/responsive.css.liquid:
+<<<<<<< HEAD
   development: 2018-01-30T15:33:53+08:00   8ee8c39fc53c651373e68f147c19d90a
+=======
+  development: 2018-01-30T13:05:53+08:00   b94cc50e3b2f450375ab2b90a4a0bf2f
+>>>>>>> 8f10a852540173ef350334f283116aca70583527
 assets/retina-responsive.css:
   development: 2018-01-29T12:41:32+08:00   a21f1e6e34c44eca91186e5a1f37f491
 assets/retina.js:
@@ -364,7 +372,11 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-01-29T12:41:34+08:00   769d13cfdd2e51b9987918ba91ead6dd
 assets/styles.css.liquid:
+<<<<<<< HEAD
   development: 2018-01-29T16:34:56+08:00   d5d71557443e294b83832d849514c064
+=======
+  development: 2018-01-30T14:39:35+08:00   eac4aab0bf4789fd1359d644d291bc27
+>>>>>>> 8f10a852540173ef350334f283116aca70583527
 assets/text-title.png:
   development: 2018-01-29T12:41:34+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -388,7 +400,11 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-01-29T12:41:36+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
+<<<<<<< HEAD
   development: 2018-01-29T12:41:01+08:00   6281dd82c74485f3f3a7a7185e1838b9
+=======
+  development: 2018-01-30T13:55:04+08:00   94c093af9eeda4a908cf921bffcba695
+>>>>>>> 8f10a852540173ef350334f283116aca70583527
 config/settings_schema.json:
   development: 2018-01-29T12:41:38+08:00   3f657539f7a403b082e6f78ff9eea901
 layout/theme-backup-special.liquid:
