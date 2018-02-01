@@ -330,7 +330,7 @@ assets/pink.png:
 assets/red.png:
   development: 2018-01-29T12:41:31+08:00   a208d4c2d434375a305c16184562ad15
 assets/responsive.css.liquid:
-  development: 2018-01-30T15:33:53+08:00   8ee8c39fc53c651373e68f147c19d90a
+  development: 2018-02-01T16:12:30+08:00   909cd49567ada886c8aeab1730423709
 assets/retina-responsive.css:
   development: 2018-01-29T12:41:32+08:00   a21f1e6e34c44eca91186e5a1f37f491
 assets/retina.js:
@@ -364,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-01-29T12:41:34+08:00   769d13cfdd2e51b9987918ba91ead6dd
 assets/styles.css.liquid:
-  development: 2018-01-30T18:24:25+08:00   716dace9fea265904ad81c020ed4327f
+  development: 2018-02-01T15:26:08+08:00   d2c20afb03104787a6aa377a6e78f945
 assets/text-title.png:
   development: 2018-01-29T12:41:34+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -416,7 +416,7 @@ sections/custom-content.liquid:
 sections/footer.liquid:
   development: 2018-01-29T12:40:59+08:00   ee1e2cf4d7ddf2e4d8ebc06219cc2547
 sections/header.liquid:
-  development: 2018-01-29T12:40:59+08:00   0f87301ed669d020dcb87089e5be90ff
+  development: 2018-02-01T16:36:19+08:00   e44d019c6fe89e868740a8101c91fe8f
 sections/home-block-2.liquid:
   development: 2018-01-29T12:40:59+08:00   1460420e41f41415973d03c903d9eaba
 sections/home-block-4.liquid:

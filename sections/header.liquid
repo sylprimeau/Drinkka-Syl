@@ -102,7 +102,7 @@
             {% when 'separator' %}
             <div class="{{ class_width }} " style="margin:{{block.settings.margin_separator }};">
               <div class="" style="border-top: {{block.settings.separator_borderwidth}} {{block.settings.settinglink_style}} {{block.settings.color_navigation}}"></div>
-            </div> 
+            </div>
             {% when 'currency_switcher' %}
             <div class="header-topbar {{ block.settings.currency_switcher_position }} {{ class_width }} col-sm-12 col-sx-12 " style="margin:{{block.settings.margin_currency_switcher }}">
               {% include 'new-currency-top' %}
@@ -163,17 +163,17 @@
                 <div class="menu-action">{% include 'site-nav' %}</div>
               </div>
               <style>
-                {% if block.settings.menu_position == "text-left" %} 
+                {% if block.settings.menu_position == "text-left" %}
                 .menu-main-home .megamenu {
                   text-align: left;
                 }
                 {% endif %}
-                {% if block.settings.menu_position == "text-right" %} 
+                {% if block.settings.menu_position == "text-right" %}
                 .menu-main-home .megamenu {
                   text-align: right;
                 }
                 {% endif %}
-                {% if block.settings.menu_position == "text-center" %} 
+                {% if block.settings.menu_position == "text-center" %}
                 .menu-main-home .megamenu {
                   text-align: center;
                 }
@@ -195,15 +195,15 @@
                     <a href="#" id="cartToggle">
                       <i class="cs-font {{ block.settings.header_icon_cart }}"></i>
                       <span id="cart-count">{{ cart.item_count }}</span>
-                    </a> 
+                    </a>
                   </div>
-                  <div id="dropdown-cart"> 
+                  <div id="dropdown-cart">
                     <div class="continue-shoping"><span {% if settings.enable_multilang %}data-translate="header.my_cart"{%endif%}>{{ 'header.my_cart' | t }}</span><a><i class="cs-font clever-icon-close"></i></a></div>
                     <div class="cart-empty">
                       <p>{{ 'header.no_product' | t }}</p>
                     </div>
                     <div class="mini_cart_header">
-                      <ol class="cart-list">  
+                      <ol class="cart-list">
                         {% for item in cart.items %}
                         <li class="item" id="cart-item-{{item.id}}">
                           <a href="{{item.url}}" title="{{item.title}}" class="product-image"><img src="{{ item.image | product_img_url: 'small' }}" alt="{{item.title}}"></a>
@@ -227,10 +227,10 @@
                         {% endfor %}
                       </ol>
                       <div class="wrap-btcart">
-                        <div class="summary">                
+                        <div class="summary">
                           <p class="total">
                             <span class="label" style="color:#000" {% if settings.enable_multilang %}data-translate="header.total"{%endif%}>{{ 'header.total' | t }}:</span>
-                            <span class="price">{{cart.total_price | money}}</span> 
+                            <span class="price">{{cart.total_price | money}}</span>
                           </p>
                         </div>
                         <div class="actions">
@@ -243,7 +243,7 @@
                   {% comment %}
                   If customer accounts are enabled, provide login and create account links
                   {% endcomment %}
-                </div> <!-- End Top Header --> 
+                </div> <!-- End Top Header -->
               </div>
             </div>
             {% when 'allicon' %}
@@ -251,6 +251,11 @@
               {% if block.settings.display_allicon_search %}
               <div class="search-top-container">
                 <div id="search-top">
+                  <div class="search-box">
+                    <form action="/search" method="get" class="" role="search">
+                      <input type="text" name="q" class="input-group-field input__field-2" aria-label="Search Site" autocomplete="off" placeholder="{{ 'header.search_placeholder' | t }}">
+                    </form>
+                  </div>
                   <div class="icon-search"><i class="cs-font clever-icon-search-4"> </i></div>
                   <div class="search-form" style="display: none;">
                     <div class="search-close">
@@ -273,7 +278,7 @@
                 <div class="top-bar-dropdown">
                   {% include 'new-currency-top' %}
 
-                  {% if settings.enable_multilang %}	
+                  {% if settings.enable_multilang %}
                   <div class="language-currency ">
                     <div class="language-switcher switcher-wrap">
                       <div class="title-selector"><span  {% if settings.enable_multilang %}data-translate="header.language"{%endif%}>{{ 'header.language' | t }}</span></div>
@@ -283,8 +288,8 @@
                           </a></li>
                         <li><a href="javascript:void(0);" data-lang="2">{{ settings.lange_2 }}</a></li>
                       </ul>
-                      <script> 
-                        translator.updateLangSwitcher(); 
+                      <script>
+                        translator.updateLangSwitcher();
                       </script>
                     </div>
                   </div>
@@ -347,15 +352,15 @@
                         <span id="cart-count">{{ cart.item_count }}</span>
                         <i class="cs-font {{ block.settings.header_icon_cart }}"></i>
                       </span>
-                    </a> 
+                    </a>
                   </div>
-                  <div id="dropdown-cart"> 
+                  <div id="dropdown-cart">
                     <div class="continue-shoping"><span {% if settings.enable_multilang %}data-translate="header.my_cart"{%endif%}>{{ 'header.my_cart' | t }}</span><a><i class="cs-font clever-icon-close"></i></a></div>
                     <div class="cart-empty">
                       <p {% if settings.enable_multilang %}data-translate="header.no_product"{%endif%}>{{ 'header.no_product' | t }}</p>
                     </div>
                     <div class="mini_cart_header">
-                      <ol class="cart-list">  
+                      <ol class="cart-list">
                         {% for item in cart.items %}
                         <li class="item" id="cart-item-{{item.id}}">
                           <a href="{{item.url}}" title="{{item.title}}" class="product-image"><img src="{{ item.image | product_img_url: 'small' }}" alt="{{item.title}}"></a>
@@ -379,10 +384,10 @@
                         {% endfor %}
                       </ol>
                       <div class="wrap-btcart">
-                        <div class="summary">                
+                        <div class="summary">
                           <p class="total">
                             <span class="label" style="color:#000" {% if settings.enable_multilang %}data-translate="header.total"{%endif%}>{{ 'header.total' | t }}:</span>
-                            <span class="price">{{cart.total_price | money}}</span> 
+                            <span class="price">{{cart.total_price | money}}</span>
                           </p>
                         </div>
                         <div class="actions">
@@ -395,7 +400,7 @@
                   {% comment %}
                   If customer accounts are enabled, provide login and create account links
                   {% endcomment %}
-                </div> <!-- End Top Header --> 
+                </div> <!-- End Top Header -->
               </div>
               {%endif %}
             </div>
@@ -480,12 +485,12 @@
       {% endif %}
       <script>
         jQuery('#header-content .icon-search').click(function(){
-          jQuery('#search-top .search-form').fadeIn('300');        
+          jQuery('#search-top .search-form').fadeIn('300');
           jQuery('body').addClass('active-search');
           jQuery('#search-top').addClass('active');
         });
         jQuery('#header-content .search-close').click(function(){
-          jQuery('#search-top .search-form').fadeOut('300'); 
+          jQuery('#search-top .search-form').fadeOut('300');
           jQuery('body').removeClass('active-search');
           jQuery('#search-top').removeClass('active');
         });
@@ -529,11 +534,11 @@
         });
 
 jQuery('#header-content .clever-icon-search-4').click(function(){
-      jQuery('#search-top .search-form').fadeIn('300');        
+      jQuery('#search-top .search-form').fadeIn('300');
       jQuery('.overlay-search').css({"display": "block", "transform": "scale(1, 1)"});
     });
     jQuery('#header-content .search-close').click(function(){
-      jQuery('#search-top .search-form').fadeOut('300'); 
+      jQuery('#search-top .search-form').fadeOut('300');
       jQuery('.overlay-search').removeAttr("style");
     });
       </script>
@@ -716,7 +721,7 @@ jQuery('#header-content .clever-icon-search-4').click(function(){
                     }
                   ]
                 },
-				
+
 				{
                   "type": "select",
                   "id": "settinglink_position",
@@ -801,7 +806,7 @@ jQuery('#header-content .clever-icon-search-4').click(function(){
                     }
                   ]
                 },
-				
+
 				{
                   "type": "select",
                   "id": "currency_switcher_position",
@@ -886,7 +891,7 @@ jQuery('#header-content .clever-icon-search-4').click(function(){
                     }
                   ]
                 },
-				
+
 				{
                   "type": "select",
                   "id": "search_position",
@@ -1163,7 +1168,7 @@ jQuery('#header-content .clever-icon-search-4').click(function(){
                     }
                   ]
 				},
-				
+
                 {
                   "type": "text",
                   "id": "logo_width",
@@ -1330,7 +1335,7 @@ jQuery('#header-content .clever-icon-search-4').click(function(){
                   "label": "height",
                   "default": "70px"
                 }
-            
+
           ]
 
 
@@ -1758,7 +1763,7 @@ jQuery('#header-content .clever-icon-search-4').click(function(){
             "label": "Copyright",
             "default": "Copyright"
           }
-          
+
         ]
       },
              {
