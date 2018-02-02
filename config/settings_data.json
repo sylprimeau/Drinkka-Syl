@@ -2336,14 +2336,14 @@
               "logo_width": "90px",
               "logo_height": "37.90px",
               "logo": "shopify:\/\/shop_images\/Drinkka_Logo_White.png",
-              "margin_logo": "15px -10px 10px -0px"
+              "margin_logo": "15px -10px -10px -0px"
             }
           },
           "1496810095091": {
             "type": "menu",
             "settings": {
               "offset_menu": "0",
-              "width": "66%",
+              "width": "58%",
               "menu_header": "main-menu",
               "menu_position": "text-center",
               "margin_menu": "30px 0px -20px 0px",
@@ -2355,7 +2355,7 @@
           "1496810129985": {
             "type": "allicon",
             "settings": {
-              "width": "16%",
+              "width": "25%",
               "icon_position": "text-right",
               "margin_allicon": "30px 0px 0px 0px",
               "display_allicon_settings": true,
