@@ -15,7 +15,7 @@ $(function() {
     var input = $(this).find('input[name="q"]');
     // Adding a list for showing search results.
     var offSet = input.position().top + input.innerHeight();
-    $('<ul class="search-results"></ul>').css( { 'position': 'absolute', 'left': '0px', 'top': offSet } ).appendTo($(this)).hide();    
+    $('<ul class="search-results"></ul>').css( { 'position': 'absolute', 'left': '-193px', 'top': offSet } ).appendTo($(this)).hide();
     // Listening to keyup and change on the text field within these search forms.
     input.attr('autocomplete', 'off').bind('keyup change', function() {
       // What's the search term?
@@ -49,7 +49,7 @@ $(function() {
               var link = $('<a></a>').attr('href', item.url);
               link.append('<span class="thumbnail"><img src="' + item.thumbnail + '" /></span>');
               link.append('<span class="title">' + item.title + '</span>');
-            
+
               if (item.price > item.min_price){
               	link.append('<span class="price first">' + item.price + item.min_price + '</span>');
               }else{
@@ -65,7 +65,7 @@ $(function() {
             }
             jQuery('.searchbox').removeClass('s-loading');
             resultsList.fadeIn(200);
-          }        
+          }
         });
       }
     });
