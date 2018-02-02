@@ -594,7 +594,6 @@ snippets/related-products-by-tags.liquid:
 snippets/related-products.liquid:
   development: 2018-01-29T11:36:17+08:00   3b2b08f28f1b336ef9ccef1a154acc42
 snippets/search-autocomplete.liquid:
-  development: 2018-02-02T13:04:57+08:00   12121877162dfcb6003c23a08d82bac9
 snippets/search-bar.liquid:
   development: 2018-02-01T15:32:15+08:00   61553356a5d347aded949f2dffd41c5e
 snippets/search-result-grid.liquid:
