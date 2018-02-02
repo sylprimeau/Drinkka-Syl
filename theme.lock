@@ -172,7 +172,7 @@ assets/footer-paypal-6.png:
 assets/footer_icon_top.png:
   development: 2018-01-29T12:41:17+08:00   54162682ac2f6eec3661dd34fcb98685
 assets/front-end.js:
-  development: 2018-01-29T12:41:17+08:00   e69e345eb2f2f3fc7a1dccc41516ce44
+  development: 2018-01-29T16:50:19+08:00   e69e345eb2f2f3fc7a1dccc41516ce44
 assets/ginit.js:
   development: 2018-01-29T12:41:18+08:00   e5d66bf2695e62d32acbe019920bc4a7
 assets/gosh-scrip.js:
@@ -568,7 +568,7 @@ snippets/popup-newsletter.liquid:
 snippets/product-collection-item.liquid:
   development: 2018-01-29T12:41:37+08:00   42e33a77ad5615e7321870eae45cd780
 snippets/product-grid-item-category.liquid:
-  development: 2018-01-29T12:41:37+08:00   8bc7a8c883103bf12c3585aa923e082f
+  development: 2018-01-29T14:37:50+08:00   8bc7a8c883103bf12c3585aa923e082f
 snippets/product-grid-item-sidebar.liquid:
   development: 2018-01-29T12:41:37+08:00   a2dc9cd4430030c32065a94d3e375a09
 snippets/product-grid-item.liquid:
