@@ -15,7 +15,7 @@ $(function() {
     var input = $(this).find('input[name="q"]');
     // Adding a list for showing search results.
     var offSet = input.position().top + input.innerHeight();
-    $('<ul class="search-results"></ul>').css( { 'position': 'absolute', 'left': '0px', 'top': offSet } ).appendTo($(this)).hide();    
+    $('<ul class="search-results"></ul>').css( { 'position': 'absolute', 'top': offSet } ).appendTo($(this)).hide();
     // Listening to keyup and change on the text field within these search forms.
     input.attr('autocomplete', 'off').bind('keyup change', function() {
       // What's the search term?
@@ -49,7 +49,7 @@ $(function() {
               var link = $('<a></a>').attr('href', item.url);
               link.append('<span class="thumbnail"><img src="' + item.thumbnail + '" /></span>');
               link.append('<span class="title">' + item.title + '</span>');
-            
+
               if (item.price > item.min_price){
               	link.append('<span class="price first">' + item.price + item.min_price + '</span>');
               }else{
@@ -57,15 +57,17 @@ $(function() {
               }
               link.wrap('<li><div class="item-search"></div></li>');
               resultsList.append(link.parent());
+
+              return index<4;
             });
             // The Ajax request will return at the most 10 results.
             // If there are more than 10, let's link to the search results page.
-            if(data.results_count > 8) {
+            if(data.results_count > 5) {
               resultsList.append('<li><span class="title"><a href="' + searchURL + '">See all results (' + data.results_count + ')</a></span></li>');
             }
             jQuery('.searchbox').removeClass('s-loading');
             resultsList.fadeIn(200);
-          }        
+          }
         });
       }
     });
