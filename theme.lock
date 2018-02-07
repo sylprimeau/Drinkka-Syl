@@ -594,7 +594,11 @@ snippets/related-products-by-tags.liquid:
 snippets/related-products.liquid:
   development: 2018-01-29T12:41:37+08:00   3b2b08f28f1b336ef9ccef1a154acc42
 snippets/search-autocomplete.liquid:
+<<<<<<< HEAD
+  development: 2018-02-02T16:31:38+08:00   d6305d2b3ba91b9601584a6c1fbeb4d6
+=======
   development: 2018-02-05T16:36:39+08:00   1a28d30459e7970fdf2271b3f0d866bd
+>>>>>>> origin/master
 snippets/search-bar.liquid:
   development: 2018-01-29T12:41:37+08:00   61553356a5d347aded949f2dffd41c5e
 snippets/search-result-grid.liquid:
