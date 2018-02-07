@@ -2412,6 +2412,14 @@
               "footer_customtext": "<h3>Follow Us<\/h3>\n<a href=\"https:\/\/web.facebook.com\/getdrinkka\/\"><i class=\"cs-font clever-icon-facebook\"><\/i><span>Facebook<\/span><\/a>\n\n<a href=\"https:\/\/www.instagram.com\/getdrinkka\/\"><i class=\"cs-font clever-icon-instagram\"><\/i><span>Instagram<\/span><\/a>"
             }
           },
+          "1517986048898": {
+            "type": "customtext",
+            "settings": {
+              "width": "34%",
+              "customtext_position": "text-left",
+              "footer_customtext": "<h3>Location<\/h3>\n<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3861.681672825398!2d121.00461064985873!3d14.560187481920659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c97389ab42f9%3A0xfb5575fbdb324171!2sBevtools+Inc.!5e0!3m2!1sen!2sph!4v1517985933253\" width=\"300\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\"><\/iframe>"
+            }
+          },
           "1496911500036": {
             "type": "copyright",
             "settings": {
@@ -2426,6 +2434,7 @@
           "1516336094155",
           "1517289483346",
           "1517289754026",
+          "1517986048898",
           "1496911500036"
         ],
         "settings": {
