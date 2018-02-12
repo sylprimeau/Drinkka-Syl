@@ -349,8 +349,6 @@ assets/selectize.min.js:
   development: 2018-02-02T12:57:38+08:00   2cf21830bef2203e6853a019022574b7
 assets/share_email_image.png:
   development: 2018-01-29T11:36:12+08:00   55b8d7e54a87ef26d7b5fb6beb096a63
-assets/sitemap.css.liquid:
-  development: 2018-02-12T15:01:11+08:00   ecfb8b535aa3dc38284e22059df74925
 assets/social.png:
   development: 2018-01-29T11:36:12+08:00   c5bff179f5815f35766f2913a84b0e61
 assets/soldout-1.png:
@@ -366,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-02-10T12:39:45+08:00   752c5d2925b4351398927945f4324c51
 assets/styles.css.liquid:
-  development: 2018-02-10T12:39:19+08:00   d3773fabf2fd2d5b4bdd02d966b30caa
+  development: 2018-02-12T18:42:24+08:00   91fc974289ade95f5128b18d968fa2df
 assets/text-title.png:
   development: 2018-01-29T11:36:14+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -396,7 +394,7 @@ config/settings_schema.json:
 layout/theme-backup-special.liquid:
   development: 2018-01-29T11:36:15+08:00   f1a1d2e4f863c5ed2b53a1442da76a6b
 layout/theme.liquid:
-  development: 2018-02-12T14:58:58+08:00   14cc8dfd6f6601f94805d11b83dbb2a8
+  development: 2018-02-12T18:37:05+08:00   7177890271bcb4bb72d2c62b99d89738
 locales/en.default.json:
   development: 2018-01-29T11:36:15+08:00   a0be4b920175350409bfc2075044f419
 sections/about-template.liquid:
@@ -686,7 +684,7 @@ templates/page.liquid:
 templates/page.sitemap-alt.liquid:
   development: 2018-02-12T17:57:45+08:00   b713aa76adbb714fc59e5c57f0a9f44c
 templates/page.sitemap.liquid:
-  development: 2018-02-12T17:55:03+08:00   1184b4c46b9f2f6b92905f8447af24c3
+  development: 2018-02-12T18:38:19+08:00   4394ff3ddbf2186d81afa7c37b717d52
 templates/page.wish-list.liquid:
   development: 2018-01-29T11:36:17+08:00   e60d0cb9269ec5e3a2e92466d368332b
 templates/password.liquid:
