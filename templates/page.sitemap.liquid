@@ -13,15 +13,83 @@
   {{ page.content }}
   {% endcomment %}
   
-  {% for link1 in linklists.main-menu.links %}
+  {% for category in linklists.main-menu.links %}
   	<div class="category col-xs-12  col-sm-4 col-md-4 col-lg-2">
-	  <h4><a href="{{ link1.url }}">{{ link1.title }}</a></h4>
-      	<ul>
-  		{% for link2 in link1.links %}
-          <li><a href="{{ link2.url }}">{{ link2.title }}</a></li>
+	  <h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
+        <ul>
+			{% for subcategory in category.links %}
+    	  	<li><a href="{{ subcategory.url }}">{{ subcategory.title }}</a></li>
   		{% endfor %}<br><br>
       </ul>
   	</div>
   {% endfor %}
+
+  {% comment %}
+    In the next section, we need to list out all the brands available for each category.
+    - iterate over the 1st level of the linklist to get the category
+    - get all the products in that linklist
+    - look for tags with the word "Brand" in it and extract the brand name which is beside it
+    - if it hasn't been listed, list it
+  {% endcomment %}
+  
+  {% for category in linklists.main-menu.links %}
+    <div class="category">
+      {% assign brandCount = 0 %}
+			<h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
+    		{% for subcategory in category.links %}
+   				  {% assign collectionHandle = {{subcategory.object.handle }} %}
+    				{% comment %}<p>This is the collection handle: {{ collectionHandle }}</p>{% endcomment %}
+    				{% for product in subcategory.object.products %}
+    				  {% comment %}
+	    				<p>This is the product name: {{ product.title }}</p>
+	    				<p>This is the product's tags: {{ product.tags }}</p>
+	    				{% endcomment %}
+	    				{% for tag in product.tags %}
+	    				  {% if tag contains "Brand " %}
+    				      {% assign brandCount = brandCount | plus: 1 %}
+    				      {% if brandCount == 1 %}
+		    				    <p style="color: red;">{{ tag | remove: "Brand " }}</p>
+		    				  {% endif %}
+	    				  {% endif %}
+	    				{% endfor %}
+    				{% endfor %}
+    		{% endfor %}
+    </div>
+  {% endfor %}
+
   
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
