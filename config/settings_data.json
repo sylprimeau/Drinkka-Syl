@@ -2840,30 +2840,10 @@
       "1476760728417": {
         "type": "slideshow",
         "blocks": {
-          "1513154363796": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Carousel_Page_Drinkka.jpg",
-              "alignment": "top",
-              "title": "FROM OUR STORE TO YOUR DOOR",
-              "title_alignment": "center",
-              "title_color": "#ffffff",
-              "subheading": "90-minute drink delivery",
-              "subheading_title_alignment": "center",
-              "sub_title_color": "#ffffff",
-              "button_label": "",
-              "link": "",
-              "button_alignment": "center",
-              "button_label_color": "#ffffff",
-              "button_label_bg": "rgba(0,0,0,0)",
-              "button_label_color_hover": "#ffffff",
-              "button_label_bg_hover": "#2d2d2d"
-            }
-          },
           "1516762189009": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3_Steps_4f873c2d-535c-49cb-9446-9bb6712101fc.jpg",
+              "image": "shopify:\/\/shop_images\/Web_Carousel.jpg",
               "alignment": "top",
               "title": "",
               "title_alignment": "center",
@@ -2879,11 +2859,31 @@
               "button_label_color_hover": "#ffffff",
               "button_label_bg_hover": "#2d2d2d"
             }
+          },
+          "1513154363796": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Web_Carousel_Free_Delivery.jpg",
+              "alignment": "top",
+              "title": "",
+              "title_alignment": "center",
+              "title_color": "#ffffff",
+              "subheading": "",
+              "subheading_title_alignment": "center",
+              "sub_title_color": "#ffffff",
+              "button_label": "",
+              "link": "",
+              "button_alignment": "center",
+              "button_label_color": "#ffffff",
+              "button_label_bg": "rgba(0,0,0,0)",
+              "button_label_color_hover": "#ffffff",
+              "button_label_bg_hover": "#2d2d2d"
+            }
           }
         },
         "block_order": [
-          "1513154363796",
-          "1516762189009"
+          "1516762189009",
+          "1513154363796"
         ],
         "settings": {
           "home_block_slideshow": "0px 0px 50px 0px",
@@ -3011,12 +3011,23 @@
           "color_icon_hover": "#2d2d2d",
           "color_icon_bg_hover": "#fff"
         }
+      },
+      "1518433144402": {
+        "type": "home-product-slide",
+        "settings": {
+          "block_product_1": "50px 0px 50px 0px",
+          "home_product_title_1": "Valentines Day Deals",
+          "collection_product_1": "valentines-day-deals",
+          "limit_of_columns_product_1": "4",
+          "product_list_limit_1": "10"
+        }
       }
     },
     "content_for_index": [
       "1476760728417",
       "1513152158016",
       "1495588440911",
+      "1518433144402",
       "1507630666643",
       "1494062978594",
       "1507633152223",
