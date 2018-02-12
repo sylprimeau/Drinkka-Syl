@@ -2401,7 +2401,7 @@
             "settings": {
               "width": "16%",
               "customtext_position": "text-left",
-              "footer_customtext": "<h3>Know Us<\/h3>\n<a href=\"\/pages\/about-us\">Who we are<\/a>\n<a href=\"\/pages\/partner-with-us\">Partner with us<\/a>\n<a href=\"\/pages\/contact-us\">Contact Us<\/a>"
+              "footer_customtext": "<h3>Know Us<\/h3>\n<a href=\"\/pages\/about-us\">Who we are<\/a>\n\n<a href=\"\/pages\/partner-with-us\">Partner with us<\/a>\n\n<a href=\"\/pages\/contact-us\">Contact Us<\/a>\n\n<a href=\"\/pages\/sitemap\">Sitemap<\/a>"
             }
           },
           "1517289754026": {
