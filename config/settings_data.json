@@ -2471,11 +2471,19 @@
               "shop_by_tags_3_title": "Variety",
               "shop_by_tags_3_list_tags": "White Tea, Green Tea, Oolong, Black Tea, Herbal Infusion, Albarino, Aglianico, Arenas, Barbera, Barbados, Blaufrankisch, Bordeaux, Carmenere, Corvina, Cabernet Franc, Cabernet Sauvignon, Chardonnay, Chenin Blanc, Cinsault, Carignan, Dolcetto, Furmint, Gamay, Garganega, Gewurztraminer, Grenache, Gruner Veltliner, Malbec, Marsanne, Malvasia, Merlot, Moscato, Mourvedre, Muller-Thurgau, Muscadet, Nebbiolo, Pinot Blanc, Pinot Gris, Pinot Noir, Pinotage, Primitivo, Petite, Petit Verdot, Prosecco, Riesling, Rhone Blends, Rousanne, Sangiovese, Sauvignon Blanc, Semillon, Shiraz, Syrah, Sirah, Tempranillo, Torrontes, Verdejo, Viognier, White Zinfandel, Zinfandel, Ale, Amber, Blonde, Brown, Cream, Dark, Fruit, Golden, Honey, IPA, Lager, Light, Lime, Malt, Pale, Pilsner, Red, Stout, Strong, Trappiste, Weiss,   Blended Whisky, Campbelltown, Lowlands, Highlands, Speyside, Island, Islay"
             }
+          },
+          "1518512043273": {
+            "type": "block_filter_price",
+            "settings": {
+              "shop_by_tags_3_title": "Brand",
+              "shop_by_tags_3_list_tags": "1800, 42 Below, Aberfeldy, Aberlour, Absolut, Acias, Aguacana, Akashi, Albarino, Allan Scott, Altas Cumbres, Amadeo, Ampelidae, Amrut, Anayon, Anderson Valley, Angostura, Angove, Anna Codorniu, Anne De Joyeuse, Apple & Eve, Archer's, Ardberg, Ardmore, Armazem, Arran, Artadi, Artesa, Artic, Asahi, Auchentoshan, Aultore, Avion, Bacardi, Baco, Baguio Craft Brewery, Bailey's, Baird, Baker's, Balbair, Ballantine's, Balvenie, Barbar, Barbieri, Bardinet, Basil, Beaujolai's, Beck's, Beefeater, Belgian, Beluga, Belvedere, BenRiach, Benromach, Berneroy, Beso De Vino, Bevtools, Bickford's, Big Peat, Bitter Truth, Black Velvet, Blackwood's, Blanche de Bruxelles, Blanche de Bruxelles, Blue Moon, Bols, Bombay, Bonjour, Boodles, Botanist, Both's, Bottega, Bowmore, Brews Cold Brew, Bruichladdich, Budweiser, Buffalo Trace, Bulleit, Bundaberg, Bunnahabhain, Bush, Bushmills, Canadian Club, Caol Ila, Cardhu, Chain of Ponds, Chimay, Chivas Regal, Clarendelle, Clynelish, Connemara, Coomara, Cooper's Choice, Corona, Crabbie's, Craft Point, Cragganmore, Craigellachie, Crazy Carabao, Crown Royal, Crows, Cutty Sark, Cuvee des Trolls, Czechvar, Dailuaine, Dalmore, Dalwhinnie, Deanston, Delirium, Desert Fathers, Dewar's, Dimple, Edradour, Evan Williams, Famous Grouse, Fireball, Floreffe, Floris, Four Roses, Francis Ford Coppola, Fuckin Hell, Fullers, Genesis, Gentleman Jack, Glen Deveron, Glen Garioch, Glen Moray, Glen Scotia, Gordon Biersch, Gordon, Gossips, Great Island’s, Gulden Draak, Heineken, Henry & Sons, Heverlee, Hitachino Hoegaarden, Hopus, Jacob's Creek, James Boag's, Joe’s Brew, Jules Taylor, Kalinga Kolsch, Katipunan, Lagavulin, Leffe, Magners, Mahou, Manneken Manzana, Martini, Montes, MontGras, Montrogue, Nest, Newton, Paradise, Paulaner, Pauwel, Pils, Piraat, Rochefort, Rogue Ales, San Miguel, Sapporo, SelvaRey, Squawking Magpie, Stella Artois, Stella Rosa, Stone Brewing, Surfine, Tennent's, Tiger, Tripel, Veuve Cliquot, Warsteiner, Weihenstephan, Wente, Westmalle, Yellow Tail,"
+            }
           }
         },
         "block_order": [
           "1508297267544",
           "1497864521948",
+          "1518512043273",
           "1515141788291"
         ],
         "settings": {

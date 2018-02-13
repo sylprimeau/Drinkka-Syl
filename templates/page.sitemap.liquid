@@ -14,7 +14,7 @@
   {% endcomment %}
   
   {% for category in linklists.main-menu.links %}
-  	<div class="category col-xs-12  col-sm-4 col-md-4 col-lg-2">
+  	<div class="category col-xs-12  col-sm-4 col-md-4 col-lg-1">
 	  <h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
         <ul>
 			{% for subcategory in category.links %}
@@ -30,13 +30,14 @@
     - get all the products in that linklist
     - look for tags with the word "Brand" in it and extract the brand name which is beside it
     - if it hasn't been listed, list it
-  {% endcomment %}
+
   
+      
   {% for category in linklists.main-menu.links %}
     <div class="category">
-      {% assign brandCount = 0 %}
 			<h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
     		{% for subcategory in category.links %}
+			      {% assign brandCount = 0 %}
    				  {% assign collectionHandle = {{subcategory.object.handle }} %}
     				{% comment %}<p>This is the collection handle: {{ collectionHandle }}</p>{% endcomment %}
     				{% for product in subcategory.object.products %}
@@ -45,10 +46,10 @@
 	    				<p>This is the product's tags: {{ product.tags }}</p>
 	    				{% endcomment %}
 	    				{% for tag in product.tags %}
-	    				  {% if tag contains "Brand " %}
+	    				  {% if tag contains "Brand." or tag contains "Brand " %}
     				      {% assign brandCount = brandCount | plus: 1 %}
     				      {% if brandCount == 1 %}
-		    				    <p style="color: red;">{{ tag | remove: "Brand " }}</p>
+		    				    <p style="color: red;">{{ tag | remove: "Brand " | remove: "Brand." }}</p>
 		    				  {% endif %}
 	    				  {% endif %}
 	    				{% endfor %}
@@ -56,6 +57,7 @@
     		{% endfor %}
     </div>
   {% endfor %}
+{% endcomment %}
 
   
 </div>
