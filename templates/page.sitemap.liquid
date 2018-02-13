@@ -13,6 +13,8 @@
   {{ page.content }}
   {% endcomment %}
   
+  <div class="categories">
+  <h2>By Category</h2>
   {% for category in linklists.main-menu.links %}
   	<div class="category col-xs-12  col-sm-4 col-md-4 col-lg-1">
 	  <h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
@@ -23,16 +25,19 @@
       </ul>
   	</div>
   {% endfor %}
-
+	</div>
+	
   {% comment %}
     In the next section, we need to list out all the brands available for each category.
     - iterate over the 1st level of the linklist to get the category
     - get all the products in that linklist
     - look for tags with the word "Brand" in it and extract the brand name which is beside it
     - if it hasn't been listed, list it
+	{% endcomment %}
 
   
-      
+	<div class="brands">
+	<h2>By Brand</h2>
   {% for category in linklists.main-menu.links %}
     <div class="category">
 			<h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
@@ -49,7 +54,7 @@
 	    				  {% if tag contains "Brand." or tag contains "Brand " %}
     				      {% assign brandCount = brandCount | plus: 1 %}
     				      {% if brandCount == 1 %}
-		    				    <p style="color: red;">{{ tag | remove: "Brand " | remove: "Brand." }}</p>
+		    				    <span><a href="{{ category.url }}?constraint={{ tag | handle | remove: "brand-" }}">{{ tag | remove: "Brand " | remove: "Brand." }}</a>, </span>
 		    				  {% endif %}
 	    				  {% endif %}
 	    				{% endfor %}
@@ -57,7 +62,7 @@
     		{% endfor %}
     </div>
   {% endfor %}
-{% endcomment %}
+	</div>  
 
   
 </div>
