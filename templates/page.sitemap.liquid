@@ -9,7 +9,7 @@
 <div class="rte sitemap">
 
   {% comment %}
-  Comment out page.content because it's not needed or wanted on sitemap
+  Comment out page.content because it's not needed or wanted on sitemap.
   {{ page.content }}
   {% endcomment %}
   
@@ -32,27 +32,44 @@
   {% for category in linklists.main-menu.links %}
     <div class="category">
 			<h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
-			{% for subcategory in category.links %}
-				{% assign brandCount = 0 %}
-				{% assign collectionHandle = {{subcategory.object.handle }} %}
-				{% for product in subcategory.object.products %}
-					{% for tag in product.tags %}
-						{% if tag contains "Brand." or tag contains "Brand " %}
-							{% assign brandCount = brandCount | plus: 1 %}
-							{% if brandCount == 1 %}
-								<span><a href="{{ category.url }}?constraint={{ tag | handle | remove: "brand-" }}">{{ tag | remove: "Brand " | remove: "Brand." }}</a></span>
+			
+					{% assign allTags = "" %}
+					{% paginate category.object.products by 1000 %}
+					{% for product in category.object.products %}
+					  
+					  
+						{% for tag in product.tags %}
+							{% if tag contains "Brand." or tag contains "Brand " %}
+							  {% assign allTags = allTags | append: ":" | append: tag | remove: "Brand " | remove: "Brand." %}
 							{% endif %}
-						{% endif %}
+						{% endfor %}
+
+						
 					{% endfor %}
-				{% endfor %}
-			{% endfor %}
+				{% endpaginate %}
+				
+				{{ allTags | split: ":" | uniq | join: "<br><br>" }}
+				
     </div>
   {% endfor %}
+  
+  
 	</div>  
 
   
+  
 </div>
 
+{% comment %}
+ 
+ 
+ ******************************************
+ *** This code works to list all tags for a subcategory without dupes *** 
+ 
+  - OK, this works for iterating over EVERY product by using the paginate "hack" of setting it to "by 1000" (which is a not well known hack)
+  
+ 
+{% endcomment %}
 
 
 
