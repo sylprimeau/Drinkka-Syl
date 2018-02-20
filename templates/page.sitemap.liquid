@@ -13,7 +13,7 @@
   {{ page.content }}
   {% endcomment %}
   
-  <div class="categories">
+  <div class="section categories col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <h2>By Category</h2>
   {% for category in linklists.main-menu.links %}
   	<div class="category col-xs-12  col-sm-4 col-md-4 col-lg-1">
@@ -27,7 +27,7 @@
   {% endfor %}
 	</div>
 	
-	<div class="brands">
+	<div class="section brands col-xs-12 col-sm-12 col-md-12 col-lg-12">
 	<h2>By Brand</h2>
   {% for category in linklists.main-menu.links %}
     <div class="category">
@@ -38,9 +38,9 @@
 					{% for product in category.object.products %}
 					  
 					  
-						{% for tag in product.tags %}
-							{% if tag contains "Brand." or tag contains "Brand " %}
-							  {% assign allTags = allTags | append: ":" | append: tag | remove: "Brand " | remove: "Brand." %}
+						{%- for tag in product.tags -%}
+							{%- if tag contains "Brand." or tag contains "Brand " -%}
+							  {%- assign allTags = allTags | append: ":" | append: tag | remove: "Brand " | remove: "Brand." -%}
 							{% endif %}
 						{% endfor %}
 
@@ -52,8 +52,56 @@
 				
     </div>
   {% endfor %}
-  
-  
+	</div>  
+
+	<div class="section countries col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	<h2>By Country</h2>
+  {% for category in linklists.main-menu.links %}
+    <div class="category">
+			<h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
+			
+					{% assign allTags = "" %}
+					{% paginate category.object.products by 1000 %}
+					{% for product in category.object.products %}
+					  
+						{% for tag in product.tags %}
+							{% if tag contains "Country." %}
+							  {% assign allTags = allTags | append: ":" | append: tag | remove: "Country." %}
+							{% endif %}
+						{% endfor %}
+
+					{% endfor %}
+				{% endpaginate %}
+				
+				{{ allTags | split: ":" | uniq | join: "<br><br>" }}
+				
+    </div>
+  {% endfor %}
+	</div>  
+
+	<div class="section varieties">
+	<h2>By Variety</h2>
+  {% for category in linklists.main-menu.links %}
+    <div class="category">
+			<h4><a href="{{ category.url }}">{{ category.title }}</a></h4>
+			
+					{% assign allTags = "" %}
+					{% paginate category.object.products by 1000 %}
+					{% for product in category.object.products %}
+					  
+						{% for tag in product.tags %}
+							{% if tag contains "Variety." %}
+							  {% assign allTags = allTags | append: ":" | append: tag | remove: "Variety." %}
+							{% endif %}
+						{% endfor %}
+
+					{% endfor %}
+				{% endpaginate %}
+				
+				{{ allTags | split: ":" | uniq | join: "<br><br>" }}
+				
+    </div>
+  {% endfor %}
 	</div>  
 
   
