@@ -8468,10 +8468,33 @@ span.close-sibade {opacity: 0;visibility: hidden;}
 	color: #000;
 }
 
-@media (min-width: 1000px) {
+.notification-bar {
+	background-color: #FC1450;
+	text-align: center;
+	color: #fff;
+	margin-top: -50px;
+	padding: 5px 0;
+}
+
+.notification-bar #first {
+	font-size: 1.5em;
+}
+
+.notification-bar #second {
+	font-size: 0.8em;
+}
+ 
+@media (min-width: 1025px) {
 	.sitemap .categories .category.col-lg-1 {
 		width: 14.285%;
 	}
+		
 }
 
+@media (max-width: 1024px) {
 
+	.notification-bar {
+		display: none;
+	}
+
+}

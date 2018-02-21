@@ -364,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-02-12T20:12:13+08:00   752c5d2925b4351398927945f4324c51
 assets/styles.css.liquid:
-  development: 2018-02-21T18:01:19+08:00   ae1cf928638faaf567da810857a43e44
+  development: 2018-02-21T21:15:33+08:00   bdaefd219b60514901bdec589fb6522e
 assets/text-title.png:
   development: 2018-02-12T20:12:13+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -388,7 +388,7 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-02-12T20:12:15+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
-  development: 2018-02-21T18:05:18+08:00   9d069c2b79bc97fae85b21b75ad99f38
+  development: 2018-02-21T21:05:14+08:00   cc656fc9cf83c934c50f92d40c752fd8
 config/settings_schema.json:
   development: 2018-02-12T20:12:17+08:00   3f657539f7a403b082e6f78ff9eea901
 layout/theme-backup-special.liquid:
@@ -435,6 +435,8 @@ sections/lookbook.liquid:
   development: 2018-02-19T18:23:16+08:00   f0906ec0c79c3ca04f03fdee8e07d40e
 sections/newsletter.liquid:
   development: 2018-02-19T18:25:02+08:00   62f6d8fbfb99b9c3a4fade587c78e39f
+sections/notification-bar.liquid:
+  development: 2018-02-21T20:36:48+08:00   61729f2890bd0a83ead2aa7431b114e3
 sections/product-loadmore.liquid:
   development: 2018-02-19T18:24:06+08:00   8d345f9bef4d564f0b7014ddc09cc30f
 sections/product-template.liquid:

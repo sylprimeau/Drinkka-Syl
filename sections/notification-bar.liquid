@@ -1,0 +1,29 @@
+<div class="notification-bar">
+  {{ section.settings.notification-bar }}
+</div>
+
+{% schema %}
+  {
+    "name": "Notification bar",
+    "settings": [
+		{
+			"type": "textarea",
+			"id": "notification-bar",
+			"label": "Notification",
+			"default": "Sale ends soon!"
+		}
+	],
+	"presets": [
+		{
+			"name": "Notification bar",
+			"category": "Notification bars"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
