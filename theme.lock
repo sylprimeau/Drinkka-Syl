@@ -364,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-02-12T20:12:13+08:00   752c5d2925b4351398927945f4324c51
 assets/styles.css.liquid:
-  development: 2018-02-20T22:05:34+08:00   6c25caeb344780efda1af410218e19a7
+  development: 2018-02-21T16:02:52+08:00   ae1cf928638faaf567da810857a43e44
 assets/text-title.png:
   development: 2018-02-12T20:12:13+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -682,7 +682,7 @@ templates/page.faqs.liquid:
 templates/page.liquid:
   development: 2018-02-19T18:23:26+08:00   f97a1de0cd131325d520da571bb4a873
 templates/page.sitemap.liquid:
-  development: 2018-02-21T14:07:52+08:00   eddfac272035d2d046a7e8fb1d8ece63
+  development: 2018-02-21T16:05:37+08:00   202b2864dcb62dce83ac80a51c076672
 templates/page.wish-list.liquid:
   development: 2018-02-12T20:12:17+08:00   e60d0cb9269ec5e3a2e92466d368332b
 templates/password.liquid:
