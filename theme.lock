@@ -364,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-02-12T20:12:13+08:00   752c5d2925b4351398927945f4324c51
 assets/styles.css.liquid:
-  development: 2018-02-21T16:02:52+08:00   ae1cf928638faaf567da810857a43e44
+  development: 2018-02-21T18:01:19+08:00   ae1cf928638faaf567da810857a43e44
 assets/text-title.png:
   development: 2018-02-12T20:12:13+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -388,7 +388,7 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-02-12T20:12:15+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
-  development: 2018-02-21T16:50:21+08:00   9d069c2b79bc97fae85b21b75ad99f38
+  development: 2018-02-21T18:05:18+08:00   9d069c2b79bc97fae85b21b75ad99f38
 config/settings_schema.json:
   development: 2018-02-12T20:12:17+08:00   3f657539f7a403b082e6f78ff9eea901
 layout/theme-backup-special.liquid:
@@ -412,7 +412,7 @@ sections/collection-without-sidebar.liquid:
 sections/contact-template.liquid:
   development: 2018-02-19T18:22:55+08:00   9bfdb7276d1fbded8c0e0a50fc8c956b
 sections/custom-content.liquid:
-  development: 2018-02-19T18:22:47+08:00   b77d783fce2622c8f3ac004ef0b2fe1a
+  development: 2018-02-21T18:00:32+08:00   b77d783fce2622c8f3ac004ef0b2fe1a
 sections/footer.liquid:
   development: 2018-02-19T18:23:28+08:00   89da8d2ae0745d52c345df9e6e40529c
 sections/header.liquid:
