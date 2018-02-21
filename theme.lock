@@ -682,7 +682,7 @@ templates/page.faqs.liquid:
 templates/page.liquid:
   development: 2018-02-19T18:23:26+08:00   f97a1de0cd131325d520da571bb4a873
 templates/page.sitemap.liquid:
-  development: 2018-02-20T21:58:04+08:00   d2fb89e05696aa9ad10ab2ec0627228a
+  development: 2018-02-21T14:07:52+08:00   eddfac272035d2d046a7e8fb1d8ece63
 templates/page.wish-list.liquid:
   development: 2018-02-12T20:12:17+08:00   e60d0cb9269ec5e3a2e92466d368332b
 templates/password.liquid:

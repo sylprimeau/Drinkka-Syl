@@ -36,19 +36,21 @@
 					{% assign allTags = "" %}
 					{% paginate category.object.products by 1000 %}
 					{% for product in category.object.products %}
-					  
-					  
-						{%- for tag in product.tags -%}
-							{%- if tag contains "Brand." or tag contains "Brand " -%}
-							  {%- assign allTags = allTags | append: ":" | append: tag | remove: "Brand " | remove: "Brand." -%}
+					
+						{% for tag in product.tags %}
+							{% if tag contains "Brand." or tag contains "Brand " %}
+						    {%- capture caturl -%}
+						    {{ category.url }}
+						    {%- endcapture -%}
+						    {% assign handleized-tag = tag | remove: "Brand." | handleize %}
+							  {% assign allTags = allTags | append: "<a href='" | append: caturl | append: "?constraint=" | append: handleized-tag | append: "'>" | append: tag | append: "</a>" | append: ":" | remove: "Brand." %}
 							{% endif %}
 						{% endfor %}
-
 						
 					{% endfor %}
 				{% endpaginate %}
 				
-				{{ allTags | split: ":" | uniq | join: "<span class='separator'> | </span>" | remove_first: "<span class='separator'> | </span>" }}
+				{{ allTags | remove_last: ":" | split: ":" | uniq | join: "<span class='separator'> | </span>" }}
 				
     </div>
   {% endfor %}
@@ -66,14 +68,14 @@
 					  
 						{% for tag in product.tags %}
 							{% if tag contains "Country." %}
-							  {% assign allTags = allTags | append: ":" | append: tag | remove: "Country." %}
+							  {% assign allTags = allTags | append: tag | append: ":" | remove: "Country." %}
 							{% endif %}
 						{% endfor %}
 
 					{% endfor %}
 				{% endpaginate %}
 				
-				{{ allTags | split: ":" | uniq | join: "<span class='separator'> | </span>" | remove_first: "<span class='separator'> | </span>" }}
+				{{ allTags | remove_last: ":" | split: ":" | uniq | join: "<span class='separator'> | </span>" }}
 				
     </div>
   {% endfor %}
@@ -91,14 +93,14 @@
 					  
 						{% for tag in product.tags %}
 							{% if tag contains "Variety." %}
-							  {% assign allTags = allTags | append: ":" | append: tag | remove: "Variety." %}
+							  {% assign allTags = allTags | append: tag | append: ":" | remove: "Variety." %}
 							{% endif %}
 						{% endfor %}
 
 					{% endfor %}
 				{% endpaginate %}
 				
-				{{ allTags | split: ":" | uniq | join: "<span class='separator'> | </span>" | remove_first: "<span class='separator'> | </span>" }}
+				{{ allTags | remove_last: ":" | split: ":" | uniq | join: "<span class='separator'> | </span>" }}
 				
     </div>
   {% endfor %}
