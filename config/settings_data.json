@@ -2385,7 +2385,7 @@
             "settings": {
               "width": "16%",
               "customtext_position": "text-left",
-              "footer_customtext": "<h3>About Us<\/h3>\n<p>Never worry about running low! We’re here to make sure your glass is always full with our extensive online selection of drinks that can be delivered to your doorstep within 90 minutes.<\/p>"
+              "footer_customtext": "<h3>About Us<\/h3>\n<p>Never worry about running low! We’re here to make sure your glass is always full with our extensive online selection of drinks that can be delivered to your doorstep within 90 minutes form 12 noon to 12 midnight.<\/p>"
             }
           },
           "1516336094155": {
@@ -2455,7 +2455,7 @@
             "type": "block_filter_price",
             "settings": {
               "shop_by_tags_3_title": "Category",
-              "shop_by_tags_3_list_tags": "Loose Leaf, Tea Bags, Red Wine, White Wine, Sparkling Wine, Champagne, Rose Wine, Dessert Wine, Fortified Wine\/Vermouth, Local Beer, Local Craft Beer, Imported Craft Beer, Imported Beer, Cider,   Single Cask Whiskey, Single Malt Whiskey, Blended Whiskey, Scotch Whisky, Japanese Whisky, American rye Whiskey, Bourbon Whiskey, Canadian Whiskey, Irish Whiskey, New World Whiskey,   Blanco, Reposado, Añejo, Extra Añejo,   Premium Vodka, Flavored Vodka, Vodka Drink,  Cachaça, Spiced Rum, Aged Rum, Dark Rum, Light Rum,  Rum, London Dry Gin, Plymouth Gin, Old Tom Gin, Genever, Contemporary Gin,   Sake, Sparkling Sake, Shochu, Lambanog,   Orange Liqueur, Berry Liqueur, Fruit Liqueur, Herbal Liqueur, Cream Liqueur, Nut Liqueur, Coffee Liqueur, Chocolate Liqueur, Whiskey Liqueur, Umeshu, Cordials,   Fruit Syrup,   Cognac, Brandy, Calvados, Armagnac, Air Series, Audience Series, Bar Series, Banquet Series, Bar Special Series, Basic Bar Series, Beer Basic Series, Bistro Series, Classico Series, Concerto Series, Congresso Series, Convention Series, Cru Series, Diva Series, Fine Series, Finesse Series, Fortissimo Series, Life Series, Paris Series, Pure Series, Spots Series, Taste Series, Tossa Series, Vina Series"
+              "shop_by_tags_3_list_tags": "Coffee Wares, Coffee Tools, Tea Wares, Cold Brew Coffee, Coffee Beans, Loose Leaf, Tea Bags, Red Wine, White Wine, Sparkling Wine, Champagne, Rosé, Dessert Wine, Fortified Wine & Vermouth, Local Beer, Local Craft Beer, Imported Craft Beer, Imported Beer, Beer Keg, Cider,  Single Cask Whiskey, Single Malt Whiskey, Blended Whiskey, Scotch Whisky, Japanese Whisky, American rye Whiskey, Bourbon Whiskey, Canadian Whiskey, Irish Whiskey, New World Whiskey,   Blanco, Reposado, Añejo, Extra Añejo,   Premium Vodka, Flavored Vodka, Vodka Drink,  Cachaça, Spiced Rum, Aged Rum, Dark Rum, Light Rum,  Rum, London Dry Gin, Plymouth Gin, Old Tom Gin, Genever, Contemporary Gin,   Sake, Sparkling Sake, Shochu, Lambanog,   Orange Liqueur, Berry Liqueur, Fruit Liqueur, Herbal Liqueur, Cream Liqueur, Nut Liqueur, Coffee Liqueur, Chocolate Liqueur, Whiskey Liqueur, Umeshu, Cordials,   Fruit Syrup,   Cognac, Brandy, Calvados, Armagnac, Air Series, Audience Series, Bar Series, Banquet Series, Bar Special Series, Basic Bar Series, Beer Basic Series, Bistro Series, Classico Series, Concerto Series, Congresso Series, Convention Series, Cru Series, Diva Series, Fine Series, Finesse Series, Fortissimo Series, Life Series, Paris Series, Pure Series, Spots Series, Taste Series, Tossa Series, Vina Series"
             }
           },
           "1497864521948": {
@@ -2465,18 +2465,18 @@
               "shop_by_tags_3_list_tags": "America, Argentina, Australia, Austria, Alaska, Arizona, Armenia, Bavaria, Brazil, Bulgaria, Belgium, British Indian Ocean Territory, Canada, Chile, China, Croatia, California, Colorado, Connecticut, Cyprus, Colombia,  Czech Republic, Denmark, England, France, Florida, Finland, Germany, Greece, Hungary, Hawaii, India, Israel, Italy, Idaho, Illinois, India, Indiana, Indonesia, Ireland, Japan, Jamaica, Kentucky, Kosovo, Lebanon, London, Louisiana, Mexico, Morocco, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Malaysia, Moldova, Monaco, Netherlands, New Zealand, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, Ohio, Oregon, Philippines, Portugal, Poland, Palau, Peru, Palestine, Puerto Rico, Republic of Georgia, Rhode Island, Republic of Macedonia, Romania, Russia, Slovenia, South Africa, Spain, Switzerland, Scotland, South Carolina, South Korea, Serbia, Slovakia, Sweden, Saint Martin, Singapore, Spain, Taiwan, Tennessee, Texas, Thailand, United Kingdom, Uruguay, United Kingdom, United States, Utah, Virginia, Washington DC, West Virginia, Wisconsin"
             }
           },
-          "1515141788291": {
-            "type": "block_filter_price",
-            "settings": {
-              "shop_by_tags_3_title": "Variety",
-              "shop_by_tags_3_list_tags": "White Tea, Green Tea, Oolong, Black Tea, Herbal Infusion, Albarino, Aglianico, Arenas, Barbera, Barbados, Blaufrankisch, Bordeaux, Carmenere, Corvina, Cabernet Franc, Cabernet Sauvignon, Chardonnay, Chenin Blanc, Cinsault, Carignan, Dolcetto, Furmint, Gamay, Garganega, Gewurztraminer, Grenache, Gruner Veltliner, Malbec, Marsanne, Malvasia, Merlot, Moscato, Mourvedre, Muller-Thurgau, Muscadet, Nebbiolo, Pinot Blanc, Pinot Gris, Pinot Noir, Pinotage, Primitivo, Petite, Petit Verdot, Prosecco, Riesling, Rhone Blends, Rousanne, Sangiovese, Sauvignon Blanc, Semillon, Shiraz, Syrah, Sirah, Tempranillo, Torrontes, Verdejo, Viognier, White Zinfandel, Zinfandel, Ale, Amber, Blonde, Brown, Cream, Dark, Fruit, Golden, Honey, IPA, Lager, Light, Lime, Malt, Pale, Pilsner, Red, Stout, Strong, Trappiste, Weiss,   Blended Whisky, Campbelltown, Lowlands, Highlands, Speyside, Island, Islay"
-            }
-          },
           "1518512043273": {
             "type": "block_filter_price",
             "settings": {
               "shop_by_tags_3_title": "Brand",
-              "shop_by_tags_3_list_tags": "1800, 42 Below, Aberfeldy, Aberlour, Absolut, Acias, Aguacana, Akashi, Albarino, Allan Scott, Altas Cumbres, Amadeo, Ampelidae, Amrut, Anayon, Anderson Valley, Angostura, Angove, Anna Codorniu, Anne De Joyeuse, Apple & Eve, Archer's, Ardberg, Ardmore, Armazem, Arran, Artadi, Artesa, Artic, Asahi, Auchentoshan, Aultore, Avion, Bacardi, Baco, Baguio Craft Brewery, Bailey's, Baird, Baker's, Balbair, Ballantine's, Balvenie, Barbar, Barbieri, Bardinet, Basil, Beaujolai's, Beck's, Beefeater, Belgian, Beluga, Belvedere, BenRiach, Benromach, Berneroy, Beso De Vino, Bevtools, Bickford's, Big Peat, Bitter Truth, Black Velvet, Blackwood's, Blanche de Bruxelles, Blanche de Bruxelles, Blue Moon, Bols, Bombay, Bonjour, Boodles, Botanist, Both's, Bottega, Bowmore, Brews Cold Brew, Bruichladdich, Budweiser, Buffalo Trace, Bulleit, Bundaberg, Bunnahabhain, Bush, Bushmills, Canadian Club, Caol Ila, Cardhu, Chain of Ponds, Chimay, Chivas Regal, Clarendelle, Clynelish, Connemara, Coomara, Cooper's Choice, Corona, Crabbie's, Craft Point, Cragganmore, Craigellachie, Crazy Carabao, Crown Royal, Crows, Cutty Sark, Cuvee des Trolls, Czechvar, Dailuaine, Dalmore, Dalwhinnie, Deanston, Delirium, Desert Fathers, Dewar's, Dimple, Edradour, Evan Williams, Famous Grouse, Fireball, Floreffe, Floris, Four Roses, Francis Ford Coppola, Fuckin Hell, Fullers, Genesis, Gentleman Jack, Glen Deveron, Glen Garioch, Glen Moray, Glen Scotia, Gordon Biersch, Gordon, Gossips, Great Island’s, Gulden Draak, Heineken, Henry & Sons, Heverlee, Hitachino Hoegaarden, Hopus, Jacob's Creek, James Boag's, Joe’s Brew, Jules Taylor, Kalinga Kolsch, Katipunan, Lagavulin, Leffe, Magners, Mahou, Manneken Manzana, Martini, Montes, MontGras, Montrogue, Nest, Newton, Paradise, Paulaner, Pauwel, Pils, Piraat, Rochefort, Rogue Ales, San Miguel, Sapporo, SelvaRey, Squawking Magpie, Stella Artois, Stella Rosa, Stone Brewing, Surfine, Tennent's, Tiger, Tripel, Veuve Cliquot, Warsteiner, Weihenstephan, Wente, Westmalle, Yellow Tail,"
+              "shop_by_tags_3_list_tags": "1800, 42 Below, Aberfeldy, Aberlour, Absolut, Acias, Aguacana, Akashi, Albarino, Allan Scott, Altas Cumbres, Amadeo, Ampelidae, Amrut, Anayon, Anderson Valley, Angostura, Angove, Anna Codorniu, Anne De Joyeuse, Apple & Eve, Archer's, Ardberg, Ardmore, Armazem, Arran, Artadi, Artesa, Artic, Asahi, Auchentoshan, Aultore, Avion, Bacardi, Baco, Baguio Craft Brewery, Bailey's, Baird, Baker's, Balbair, Ballantine's, Balvenie, Barbar, Barbieri, Bardinet, Basil, Beaujolai's, Beck's, Beefeater, Belgian, Beluga, Belvedere, BenRiach, Benromach, Berneroy, Beso De Vino, Bevtools, Bickford's, Big Peat, Bitter Truth, Black Velvet, Blackwood's, Blanche de Bruxelles, Blanche de Bruxelles, Blue Moon, Bodum, Bols, Bombay, Bonjour, Boodles, Botanist, Both's, Bottega, Bowmore, Brews Cold Brew, Bruichladdich, Budweiser, Buffalo Trace, Bulleit, Bundaberg, Bunnahabhain, Bush, Bushmills, Canadian Club, Caol Ila, Cardhu, Chain of Ponds, Chimay, Chivas Regal, Clarendelle, Clynelish, Connemara, Coomara, Cooper's Choice, Corona, Crabbie's, Craft Point, Cragganmore, Craigellachie, Crazy Carabao, Crown Royal, Crows, Cutty Sark, Cuvee des Trolls, Czechvar, Dailuaine, Dalmore, Dalwhinnie, Deanston, Delirium, Desert Fathers, Dewar's, Dimple, Edradour, Evan Williams, Famous Grouse, Fireball, Floreffe, Floris, Four Roses, Francis Ford Coppola, Fuckin Hell, Fullers, Genesis, Gentleman Jack, Glen Deveron, Glen Garioch, Glen Moray, Glen Scotia, Gordon Biersch, Gordon, Gossips, Great Island’s, Gulden Draak, Heineken, Henry & Sons, Heverlee, Hitachino Hoegaarden, Hopus, Jacob's Creek, James Boag's, Joe’s Brew, Jules Taylor, Kalinga Kolsch, Katipunan, Lagavulin, Leffe, Magners, Mahou, Manneken Manzana, Martini, Montes, MontGras, Montrogue, Nest, Newton, Paradise, Paulaner, Pauwel, Pils, Piraat, Rochefort, Rogue Ales, San Miguel, Sapporo, SelvaRey, Squawking Magpie, Stella Artois, Stella Rosa, Stone Brewing, Suncoast, Surfine, Tennent's, Tiger, Tripel, Veuve Cliquot, Warsteiner, Weihenstephan, Wente, Westmalle, Wilmax, Yellow Tail,"
+            }
+          },
+          "1515141788291": {
+            "type": "block_filter_price",
+            "settings": {
+              "shop_by_tags_3_title": "Variety",
+              "shop_by_tags_3_list_tags": "Dark Roast, Medium Roast, Light Roast, White Tea, Green Tea, Oolong, Black Tea, Herbal Infusion, Albarino, Aglianico, Arenas, Barbera, Barbados, Blaufrankisch, Bordeaux, Carmenere, Corvina, Cabernet Franc, Cabernet Sauvignon, Chardonnay, Chenin Blanc, Cinsault, Carignan, Dolcetto, Furmint, Gamay, Garganega, Gewurztraminer, Grenache, Gruner Veltliner, Malbec, Marsanne, Malvasia, Merlot, Moscato, Mourvedre, Muller-Thurgau, Muscadet, Nebbiolo, Pinot Blanc, Pinot Gris, Pinot Noir, Pinotage, Primitivo, Petite, Petit Verdot, Prosecco, Riesling, Rhone Blends, Rousanne, Sangiovese, Sauvignon Blanc, Semillon, Shiraz, Syrah, Sirah, Tempranillo, Torrontes, Verdejo, Viognier, White Zinfandel, Zinfandel, Ale, Amber, Blonde, Brown, Cream, Dark, Fruit, Golden, Honey, IPA, Lager, Light, Lime, Malt, Pale, Pilsner, Red, Stout, Strong, Trappiste, Weiss,   Blended Whisky, Campbelltown, Lowlands, Highlands, Speyside, Island, Islay"
             }
           }
         },
@@ -2587,7 +2587,7 @@
         "type": "about-template",
         "settings": {
           "enable_about_banner": true,
-          "bg_about_banner": "shopify:\/\/shop_images\/Whisky.jpg",
+          "bg_about_banner": "shopify:\/\/shop_images\/drinks-2578446_1920.jpg",
           "enable_about_text": true,
           "title_about_text": "WHO WE ARE",
           "sub_title_about_text": "Never worry about running low! We’re here to make sure your glass is always full with our extensive online selection of drinks that can be delivered to your doorstep within 90 minutes.*\nWe’re your one-stop shop for all things drinks, also offering the finest bar tools and bar consultation services through Bevtools.\nWith Drinkka, you’ve got a fun-loving sidekick ready to share in your special moments in life. We know your thirst, and we are ready to satisfy your beverage needs with quick and quality service.",
@@ -2848,10 +2848,10 @@
       "1476760728417": {
         "type": "slideshow",
         "blocks": {
-          "1516762189009": {
+          "1518689296205": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Web_Carousel.jpg",
+              "image": "shopify:\/\/shop_images\/Viva_La_Rita_Header_d321b18a-59ef-42a4-a5fd-7ac6b89d8f77.jpg",
               "alignment": "top",
               "title": "",
               "title_alignment": "center",
@@ -2890,7 +2890,7 @@
           }
         },
         "block_order": [
-          "1516762189009",
+          "1518689296205",
           "1513154363796"
         ],
         "settings": {
@@ -2986,8 +2986,8 @@
               "use_icon_image": "image",
               "block_icon_1": "fa fa-plane",
               "image": "shopify:\/\/shop_images\/We-Deliver_Web_Icon_x2_8a4a3d7d-9f50-49a6-ae99-91112a9c537d.png",
-              "block_icon_title_1": "We Deliver",
-              "block_icon_subtitle_1": "Straight To Your Door",
+              "block_icon_title_1": "Free Delivery*",
+              "block_icon_subtitle_1": "90 minutes for Makati and BGC",
               "block_icon_lable_link": "",
               "link": ""
             }
@@ -3022,10 +3022,21 @@
       },
       "1518433144402": {
         "type": "home-product-slide",
+        "disabled": true,
         "settings": {
           "block_product_1": "50px 0px 50px 0px",
-          "home_product_title_1": "Valentines Day Deals",
+          "home_product_title_1": "Valentine's Day Deals",
           "collection_product_1": "valentines-day-deals",
+          "limit_of_columns_product_1": "4",
+          "product_list_limit_1": "10"
+        }
+      },
+      "1518687231295": {
+        "type": "home-product-slide",
+        "settings": {
+          "block_product_1": "0px 0px 0px 0px",
+          "home_product_title_1": "Viva La 'Rita! Margarita Day",
+          "collection_product_1": "viva-la-rita",
           "limit_of_columns_product_1": "4",
           "product_list_limit_1": "10"
         }
@@ -3035,6 +3046,7 @@
       "1476760728417",
       "1513152158016",
       "1495588440911",
+      "1518687231295",
       "1518433144402",
       "1507630666643",
       "1494062978594",

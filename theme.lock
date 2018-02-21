@@ -388,7 +388,7 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-02-12T20:12:15+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
-  development: 2018-02-13T17:21:23+08:00   297d9835df216cba5439313a795a97b8
+  development: 2018-02-21T16:50:21+08:00   9d069c2b79bc97fae85b21b75ad99f38
 config/settings_schema.json:
   development: 2018-02-12T20:12:17+08:00   3f657539f7a403b082e6f78ff9eea901
 layout/theme-backup-special.liquid:
@@ -681,6 +681,8 @@ templates/page.faqs.liquid:
   development: 2018-02-19T18:22:31+08:00   643d80d212a58da88489f1755f39cb82
 templates/page.liquid:
   development: 2018-02-19T18:23:26+08:00   f97a1de0cd131325d520da571bb4a873
+templates/page.sitemap-alt.liquid:
+  development: 2018-02-21T16:50:18+08:00   b713aa76adbb714fc59e5c57f0a9f44c
 templates/page.sitemap.liquid:
   development: 2018-02-21T16:05:37+08:00   202b2864dcb62dce83ac80a51c076672
 templates/page.wish-list.liquid:
