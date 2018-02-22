@@ -3035,7 +3035,7 @@
         "type": "home-product-slide",
         "settings": {
           "block_product_1": "0px 0px 0px 0px",
-          "home_product_title_1": "Viva La 'Rita! Margarita Day",
+          "home_product_title_1": "Viva La 'Rita! 10% Off (Use Code: MARGARITADAY2018)",
           "collection_product_1": "viva-la-rita",
           "limit_of_columns_product_1": "4",
           "product_list_limit_1": "10"
@@ -3044,7 +3044,7 @@
       "1519216160311": {
         "type": "notification-bar",
         "settings": {
-          "notification-bar": "<p id=\"first\">Your one-stop shop for all things drinks.<\/p>\n<p id=\"second\">90-MINUTE DRINK DELIVERY TO SELECT CITIES IN METRO MANILA FROM 12 NOON TO 12 MIDNIGHT<\/p>"
+          "notification-bar": "<p id=\"first\">Your one-stop shop for all things drinks.<\/p>\n<p id=\"second\">Free Delivery Within Metro Manila from 12NN to 12 MN<\/p>"
         }
       }
     },
