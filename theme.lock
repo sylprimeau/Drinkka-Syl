@@ -364,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-02-12T20:12:13+08:00   752c5d2925b4351398927945f4324c51
 assets/styles.css.liquid:
-  development: 2018-02-21T21:15:33+08:00   bdaefd219b60514901bdec589fb6522e
+  development: 2018-02-22T12:34:50+08:00   984c87b8753d612b8ad4c8e786b39816
 assets/text-title.png:
   development: 2018-02-12T20:12:13+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -388,7 +388,7 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-02-12T20:12:15+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
-  development: 2018-02-21T21:05:14+08:00   cc656fc9cf83c934c50f92d40c752fd8
+  development: 2018-02-22T11:40:53+08:00   cc656fc9cf83c934c50f92d40c752fd8
 config/settings_schema.json:
   development: 2018-02-12T20:12:17+08:00   3f657539f7a403b082e6f78ff9eea901
 layout/theme-backup-special.liquid:
