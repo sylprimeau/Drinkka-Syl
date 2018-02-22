@@ -364,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-02-12T20:12:13+08:00   752c5d2925b4351398927945f4324c51
 assets/styles.css.liquid:
-  development: 2018-02-22T13:56:52+08:00   c003fd47f42f4bcc9400721a28dd51f1
+  development: 2018-02-22T16:24:04+08:00   af5de57e1bfb05d92be9145c29ee9b11
 assets/text-title.png:
   development: 2018-02-12T20:12:13+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
