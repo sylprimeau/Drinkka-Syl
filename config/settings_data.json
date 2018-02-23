@@ -274,7 +274,7 @@
     "supported_currencies_4": "",
     "supported_currencies_5": "",
     "cart_notes": true,
-    "ajax_cart": false,
+    "ajax_cart": true,
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo_Colored.png",
     "checkout_logo_position": "left",

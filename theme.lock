@@ -388,7 +388,7 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-02-12T20:12:15+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
-  development: 2018-02-22T16:11:25+08:00   e8b15b1e663722c77dccc7d42b1c4ccf
+  development: 2018-02-23T15:01:20+08:00   d06f44f07c7bbe82c95d9a12f779af31
 config/settings_schema.json:
   development: 2018-02-12T20:12:17+08:00   3f657539f7a403b082e6f78ff9eea901
 layout/theme-backup-special.liquid:
