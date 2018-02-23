@@ -197,7 +197,7 @@
 
                 {% endif %}
 
-                <div class="slideshow__image slideshow__image--{{ block.id }}" data-image="{{ block.settings.image | img_url: 1024 }}">
+                <a href="{{ block.settings.link }}"><div class="slideshow__image slideshow__image--{{ block.id }}" data-image="{{ block.settings.image | img_url: 1024 }}">
 
                   {% if block.settings.image == blank %}
                   <div class="placeholder-background">
@@ -205,7 +205,7 @@
                     {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
                   </div>
                   {% endif %}
-                </div>
+                </div></a>
                 <div class="slideshow__text-wrap{% if block.settings.title != blank or block.settings.subheading != blank %} slideshow__overlay{% endif %}">
                   <div class="container">
                     <div class="slideshow__text-content">

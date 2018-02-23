@@ -388,7 +388,7 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-02-12T20:12:15+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
-  development: 2018-02-23T15:01:20+08:00   d06f44f07c7bbe82c95d9a12f779af31
+  development: 2018-02-23T16:06:57+08:00   2039ac366b940819a2e9c4b99cdd960c
 config/settings_schema.json:
   development: 2018-02-12T20:12:17+08:00   3f657539f7a403b082e6f78ff9eea901
 layout/theme-backup-special.liquid:
@@ -442,7 +442,7 @@ sections/product-loadmore.liquid:
 sections/product-template.liquid:
   development: 2018-02-12T20:11:39+08:00   95552a3a7101bddc9c1b1601d311c4cf
 sections/slideshow.liquid:
-  development: 2018-02-19T18:24:20+08:00   08662c4f81a0e642607b3e114e2feb31
+  development: 2018-02-23T16:03:37+08:00   d344793d84f2066d2e95945c7404eb38
 sections/tabs-product.liquid:
   development: 2018-02-19T18:24:32+08:00   ceb03853bf9a8358b0aef6a35efc4fa5
 snippets/SEOManager-404.liquid:
