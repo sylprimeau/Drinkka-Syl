@@ -50,7 +50,7 @@
 					{% endfor %}
 				{% endpaginate %}
 				
-				{{ allTags | remove_last: ":" | split: ":" | uniq | join: "<span class='separator'> | </span>" }}
+				{{ allTags | remove_last: ":" | split: ":" | sort | uniq | join: "<span class='separator'> | </span>" }}
 				
     </div>
   {% endfor %}
@@ -79,7 +79,7 @@
 					{% endfor %}
 				{% endpaginate %}
 				
-				{{ allTags | remove_last: ":" | split: ":" | uniq | join: "<span class='separator'> | </span>" }}
+				{{ allTags | remove_last: ":" | split: ":" | sort | uniq | join: "<span class='separator'> | </span>" }}
 				
     </div>
   {% endfor %}
@@ -108,7 +108,7 @@
 					{% endfor %}
 				{% endpaginate %}
 				
-				{{ allTags | remove_last: ":" | split: ":" | uniq | join: "<span class='separator'> | </span>" }}
+				{{ allTags | remove_last: ":" | split: ":" | sort | uniq | join: "<span class='separator'> | </span>" }}
 				
     </div>
   {% endfor %}

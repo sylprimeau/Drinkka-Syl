@@ -686,7 +686,7 @@ templates/page.liquid:
 templates/page.sitemap-alt.liquid:
   development: 2018-02-21T16:50:18+08:00   b713aa76adbb714fc59e5c57f0a9f44c
 templates/page.sitemap.liquid:
-  development: 2018-02-21T16:05:37+08:00   202b2864dcb62dce83ac80a51c076672
+  development: 2018-02-23T13:08:46+08:00   80fa1a7d42b915f814dda2ab21a32123
 templates/page.wish-list.liquid:
   development: 2018-02-12T20:12:17+08:00   e60d0cb9269ec5e3a2e92466d368332b
 templates/password.liquid:
