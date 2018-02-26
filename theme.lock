@@ -12,7 +12,7 @@ assets/ElegantIcons.woff:
 assets/FontAwesome.otf:
   development: 2018-02-12T20:11:42+08:00   668743fe7258676f8ef8f9b47d2a623e
 assets/ajax.jquery.js:
-  development: 2018-02-26T15:55:38+08:00   8c174f6d5106a15f4ca7dc007dd7722a
+  development: 2018-02-26T16:19:39+08:00   8c174f6d5106a15f4ca7dc007dd7722a
 assets/animate.css:
   development: 2018-02-19T18:24:03+08:00   2742964ebb01d2ce117e28ea498f6f87
 assets/bannereditor.css:
@@ -172,7 +172,7 @@ assets/footer-paypal-6.png:
 assets/footer_icon_top.png:
   development: 2018-02-12T20:11:56+08:00   54162682ac2f6eec3661dd34fcb98685
 assets/front-end.js:
-  development: 2018-02-26T15:55:34+08:00   8784ac801f66e6782e9e1594a68d6340
+  development: 2018-02-26T16:19:40+08:00   8784ac801f66e6782e9e1594a68d6340
 assets/ginit.js:
   development: 2018-02-12T20:11:56+08:00   e5d66bf2695e62d32acbe019920bc4a7
 assets/gosh-scrip.js:
@@ -440,7 +440,7 @@ sections/notification-bar.liquid:
 sections/product-loadmore.liquid:
   development: 2018-02-19T18:24:06+08:00   8d345f9bef4d564f0b7014ddc09cc30f
 sections/product-template.liquid:
-  development: 2018-02-26T15:55:46+08:00   5f443076c69747b38dd43c941929316b
+  development: 2018-02-26T16:35:06+08:00   1ad62a414e35b8bd971a01e055d81ecf
 sections/slideshow.liquid:
   development: 2018-02-23T16:03:37+08:00   d344793d84f2066d2e95945c7404eb38
 sections/tabs-product.liquid:
@@ -518,7 +518,7 @@ snippets/home-revolution.liquid:
 snippets/home-tab-product.liquid:
   development: 2018-02-19T18:23:51+08:00   12ed9057004d4d17433b963119d4bf25
 snippets/home_tab_product_grid_item.liquid:
-  development: 2018-02-26T15:55:46+08:00   c0cefe944ea2e64a977c5963394e90fa
+  development: 2018-02-26T16:31:12+08:00   1d172b14ac52c1a5635b2023d24abb87
 snippets/homepage-block-newsletter.liquid:
   development: 2018-02-19T18:22:59+08:00   893039ff9ace439392e0dc029bfd0a0b
 snippets/icon-quote.liquid:
@@ -534,7 +534,7 @@ snippets/linklists.liquid:
 snippets/lion-wholesale.liquid:
   development: 2018-02-19T18:24:46+08:00   43e3e4caa996781b5fe0a656534265ea
 snippets/load-more-product-item.liquid:
-  development: 2018-02-26T15:55:47+08:00   c7ee77f87e89e5af38d94fe0deb08cbe
+  development: 2018-02-26T16:31:05+08:00   b1f542eda361184117a6d2f7d814ccbf
 snippets/megamenu_1.liquid:
   development: 2018-02-19T18:24:11+08:00   df13ee95ff963edb6ecc396d02f3152b
 snippets/megamenu_2.liquid:
@@ -568,7 +568,7 @@ snippets/pagination.liquid:
 snippets/popup-newsletter.liquid:
   development: 2018-02-19T18:23:49+08:00   b9af0018057a745f382e5d7a28f126af
 snippets/product-collection-item.liquid:
-  development: 2018-02-26T15:55:48+08:00   8c95d0042ae473a79d14d5c86782c25e
+  development: 2018-02-26T16:30:48+08:00   6bb8d13bffeb46afd8dc075680f0d225
 snippets/product-grid-item-category.liquid:
   development: 2018-02-19T18:24:47+08:00   7620d85db2f65f0e3f4134fd45dd86d9
 snippets/product-grid-item-sidebar.liquid:
@@ -588,7 +588,7 @@ snippets/product-tab-content-shortcode.liquid:
 snippets/product-tabs-item.liquid:
   development: 2018-02-19T18:22:55+08:00   0db8dd3a00dd1d435c75a0137ae25963
 snippets/quick-view-product.liquid:
-  development: 2018-02-26T15:55:40+08:00   3f05a28a477a0716fb85140ef46977fc
+  development: 2018-02-26T16:19:38+08:00   3f05a28a477a0716fb85140ef46977fc
 snippets/related-product-item.liquid:
   development: 2018-02-19T18:25:14+08:00   c9d4cc279da55561eeba72c6acaca031
 snippets/related-products-by-tags.liquid:
@@ -602,7 +602,7 @@ snippets/search-bar.liquid:
 snippets/search-result-grid.liquid:
   development: 2018-02-19T18:24:45+08:00   236b55e2317e44fcb0d46cf2629257d1
 snippets/search-result.liquid:
-  development: 2018-02-26T15:55:47+08:00   4cba4ed62f61de8cde3dfc5e46ba5c17
+  development: 2018-02-26T16:30:54+08:00   533ab1cea69c9c66fb56e98513b7340d
 snippets/shipping-rates-calculator.liquid:
   development: 2018-02-19T18:22:55+08:00   2cbaabb420d3a9c578bfb2fb63b9f357
 snippets/shortcode-accordion.liquid:
