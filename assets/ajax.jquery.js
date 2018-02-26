@@ -872,7 +872,7 @@
                 i.find(".product-inventory span").text("Many in stock")
               }
             } else {
-              i.find(".product-inventory span").text("Out of stock")
+              i.find(".product-inventory span").text("Sold out")
             }
           }
             if (i.find('.product-description').length > 0) {
