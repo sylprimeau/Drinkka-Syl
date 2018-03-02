@@ -368,7 +368,7 @@ assets/styles.css.liquid:
 assets/text-title.png:
   development: 2018-02-12T20:12:13+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
-  development: 2018-02-19T18:24:43+08:00   6128f70e3859fb81a57a97656fcb24e9
+  development: 2018-03-02T15:00:48+08:00   0b86ae58b2ab131d47c4e97f1e7832af
 assets/timber.scss.liquid:
   development: 2018-02-19T18:24:28+08:00   cb69180aca6dc32f6bd94b0a0b84c204
 assets/vendor.js:
@@ -440,7 +440,7 @@ sections/notification-bar.liquid:
 sections/product-loadmore.liquid:
   development: 2018-02-19T18:24:06+08:00   8d345f9bef4d564f0b7014ddc09cc30f
 sections/product-template.liquid:
-  development: 2018-03-01T16:14:21+08:00   f9139d8ad53a226831fe77d7988e360f
+  development: 2018-03-02T14:51:44+08:00   033fcd3aafe149f1dc75da0b5307748d
 sections/slideshow.liquid:
   development: 2018-02-23T16:03:37+08:00   d344793d84f2066d2e95945c7404eb38
 sections/tabs-product.liquid:
