@@ -388,13 +388,15 @@ assets/wow.min.js:
 assets/yellow.png:
   development: 2018-02-12T20:12:15+08:00   7aeb924d98bd6e57fbc4194881e04886
 config/settings_data.json:
-  development: 2018-02-23T16:06:57+08:00   2039ac366b940819a2e9c4b99cdd960c
+  development: 2018-03-05T19:22:35+08:00   c91c055ec21a82f642fa18959b637e54
 config/settings_schema.json:
   development: 2018-02-12T20:12:17+08:00   3f657539f7a403b082e6f78ff9eea901
+layout/SWYM_BACKUP_theme.liquid:
+  development: 2018-03-05T19:20:11+08:00   ae4b0bac1dfccf13064016ac4366a4bf
 layout/theme-backup-special.liquid:
   development: 2018-02-19T18:24:38+08:00   dcee0e4d275b9f1811a762ffaa57af68
 layout/theme.liquid:
-  development: 2018-02-19T18:22:35+08:00   ae4b0bac1dfccf13064016ac4366a4bf
+  development: 2018-03-05T19:20:01+08:00   2574652ef82b533f0c3953ccfdb1e9d2
 locales/en.default.json:
   development: 2018-02-26T15:32:23+08:00   3a1bc7deada0a6fec02a5df5afbc771f
 sections/about-template.liquid:
@@ -440,7 +442,7 @@ sections/notification-bar.liquid:
 sections/product-loadmore.liquid:
   development: 2018-02-19T18:24:06+08:00   8d345f9bef4d564f0b7014ddc09cc30f
 sections/product-template.liquid:
-  development: 2018-03-02T14:51:44+08:00   033fcd3aafe149f1dc75da0b5307748d
+  development: 2018-03-05T19:21:33+08:00   f9139d8ad53a226831fe77d7988e360f
 sections/slideshow.liquid:
   development: 2018-02-23T16:03:37+08:00   d344793d84f2066d2e95945c7404eb38
 sections/tabs-product.liquid:
@@ -621,6 +623,10 @@ snippets/swatch.liquid:
   development: 2018-02-19T18:24:41+08:00   b3d894607e6377f4051e56b278f6aa58
 snippets/swatch_scripts.liquid:
   development: 2018-02-19T18:22:29+08:00   af90c16eb6904ceba9f9491846cc59de
+snippets/swym-product-view.liquid:
+  development: 2018-03-05T19:21:10+08:00   aa0b91af5bc512d8986c85595ccd0696
+snippets/swymSnippet.liquid:
+  development: 2018-03-05T19:21:49+08:00   f84cf2e53529ddde359df08dfaca2b08
 snippets/tags-article.liquid:
   development: 2018-02-19T18:22:34+08:00   7002cf7253685d3ef6638ca5eaa9cc37
 snippets/toolbar.liquid:

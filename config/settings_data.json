@@ -2469,7 +2469,7 @@
             "type": "block_filter_price",
             "settings": {
               "shop_by_tags_3_title": "Brand",
-              "shop_by_tags_3_list_tags": "1800, 42 Below, Aberfeldy, Aberlour, Absolut, Acias, Aguacana, Akashi, Albarino, Allan Scott, Altas Cumbres, Amadeo, Ampelidae, Amrut, Anayon, Anderson Valley, Angostura, Angove, Anna Codorniu, Anne De Joyeuse, Apple & Eve, Archer's, Ardberg, Ardmore, Armazem, Arran, Artadi, Artesa, Artic, Asahi, Auchentoshan, Aultore, Avion, Bacardi, Baco, Baguio Craft Brewery, Bailey's, Baird, Baker's, Balbair, Ballantine's, Balvenie, Barbar, Barbieri, Bardinet, Basil, Beaujolai's, Beck's, Beefeater, Belgian, Beluga, Belvedere, BenRiach, Benromach, Berneroy, Beso De Vino, Bevtools, Bickford's, Big Peat, Bitter Truth, Black Velvet, Blackwood's, Blanche de Bruxelles, Blanche de Bruxelles, Blue Moon, Bodum, Bols, Bombay, Bonjour, Boodles, Botanist, Both's, Bottega, Bowmore, Brews Cold Brew, Bruichladdich, Budweiser, Buffalo Trace, Bulleit, Bundaberg, Bunnahabhain, Bush, Bushmills, Canadian Club, Caol Ila, Cardhu, Chain of Ponds, Chimay, Chivas Regal, Clarendelle, Clynelish, Connemara, Coomara, Cooper's Choice, Corona, Crabbie's, Craft Point, Cragganmore, Craigellachie, Crazy Carabao, Crown Royal, Crows, Cutty Sark, Cuvee des Trolls, Czechvar, Dailuaine, Dalmore, Dalwhinnie, Deanston, Delirium, Desert Fathers, Dewar's, Dimple, Edradour, Evan Williams, Famous Grouse, Fireball, Floreffe, Floris, Four Roses, Francis Ford Coppola, Fuckin Hell, Fullers, Genesis, Gentleman Jack, Glen Deveron, Glen Garioch, Glen Moray, Glen Scotia, Gordon Biersch, Gordon, Gossips, Great Island’s, Gulden Draak, Heineken, Henry & Sons, Heverlee, Hitachino Hoegaarden, Hopus, Jacob's Creek, James Boag's, Joe’s Brew, Jules Taylor, Kalinga Kolsch, Katipunan, Lagavulin, Leffe, Magners, Mahou, Manneken Manzana, Martini, Montes, MontGras, Montrogue, Nest, Newton, Paradise, Paulaner, Pauwel, Pils, Piraat, Rochefort, Rogue Ales, San Miguel, Sapporo, SelvaRey, Squawking Magpie, Stella Artois, Stella Rosa, Stone Brewing, Suncoast, Surfine, Tennent's, Tiger, Tripel, Veuve Cliquot, Warsteiner, Weihenstephan, Wente, Westmalle, Wilmax, Yellow Tail,"
+              "shop_by_tags_3_list_tags": "Joe's Brew, 1800, 42 Below, Aberfeldy, Aberlour, Absolut, Acias, Aguacana, Akashi, Albarino, Allan Scott, Altas Cumbres, Amadeo, Ampelidae, Amrut, Anayon, Anderson Valley, Angostura, Angove, Anna Codorniu, Anne De Joyeuse, Apple & Eve, Archer's, Ardberg, Ardmore, Armazem, Arran, Artadi, Artesa, Artic, Asahi, Auchentoshan, Aultore, Avion, Bacardi, Baco, Baguio Craft Brewery, Bailey's, Baird, Baker's, Balbair, Ballantine's, Balvenie, Barbar, Barbieri, Bardinet, Basil, Beaujolai's, Beck's, Beefeater, Belgian, Beluga, Belvedere, BenRiach, Benromach, Berneroy, Beso De Vino, Bevtools, Bickford's, Big Peat, Bitter Truth, Black Velvet, Blackwood's, Blanche de Bruxelles, Blanche de Bruxelles, Blue Moon, Bodum, Bols, Bombay, Bonjour, Boodles, Botanist, Both's, Bottega, Bowmore, Brews Cold Brew, Bruichladdich, Budweiser, Buffalo Trace, Bulleit, Bundaberg, Bunnahabhain, Bush, Bushmills, Canadian Club, Caol Ila, Cardhu, Chain of Ponds, Chimay, Chivas Regal, Clarendelle, Clynelish, Connemara, Coomara, Cooper's Choice, Corona, Crabbie's, Craft Point, Cragganmore, Craigellachie, Crazy Carabao, Crown Royal, Crows, Cutty Sark, Cuvee des Trolls, Czechvar, Dailuaine, Dalmore, Dalwhinnie, Deanston, Delirium, Desert Fathers, Dewar's, Dimple, Edradour, Evan Williams, Famous Grouse, Fireball, Floreffe, Floris, Four Roses, Francis Ford Coppola, Fuckin Hell, Fullers, Genesis, Gentleman Jack, Glen Deveron, Glen Garioch, Glen Moray, Glen Scotia, Gordon Biersch, Gordon, Gossips, Great Island’s, Gulden Draak, Heineken, Henry & Sons, Heverlee, Hitachino Hoegaarden, Hopus, Jacob's Creek, James Boag's, Joe’s Brew, Jules Taylor, Kalinga Kolsch, Katipunan, Lagavulin, Leffe, Lucaris, Magners, Mahou, Manneken Manzana, Martini, Montes, MontGras, Montrogue, Nest, Newton, Ocean, Paradise, Paulaner, Pauwel, Pils, Piraat, Rochefort, Rogue Ales, San Miguel, Sapporo, Schott Zwiesel, SelvaRey, Squawking Magpie, Stella Artois, Stella Rosa, Stone Brewing, Suncoast, Surfine, Tennent's, Tiger, Tripel, Veuve Cliquot, Warsteiner, Weihenstephan, Wente, Westmalle, Wilmax, Yellow Tail,"
             }
           },
           "1515141788291": {
@@ -2851,7 +2851,7 @@
           "1518689296205": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Viva_La_Rita_Header_d321b18a-59ef-42a4-a5fd-7ac6b89d8f77.jpg",
+              "image": "shopify:\/\/shop_images\/Web_Carousel_Bestsellers.jpg",
               "alignment": "top",
               "title": "",
               "title_alignment": "center",
@@ -2859,11 +2859,11 @@
               "subheading": "",
               "subheading_title_alignment": "center",
               "sub_title_color": "#2d2d2d",
-              "button_label": "",
-              "link": "https:\/\/www.drinkka.com\/collections\/tequila",
+              "button_label": "SHOP NOW",
+              "link": "shopify:\/\/collections\/best-sellers",
               "button_alignment": "center",
-              "button_label_color": "#ffffff",
-              "button_label_bg": "rgba(0,0,0,0)",
+              "button_label_color": "#fc1450",
+              "button_label_bg": "#ffffff",
               "button_label_color_hover": "#ffffff",
               "button_label_bg_hover": "#2d2d2d"
             }
@@ -3022,17 +3022,17 @@
       },
       "1518433144402": {
         "type": "home-product-slide",
-        "disabled": true,
         "settings": {
           "block_product_1": "50px 0px 50px 0px",
-          "home_product_title_1": "Valentine's Day Deals",
-          "collection_product_1": "valentines-day-deals",
+          "home_product_title_1": "New Items",
+          "collection_product_1": "new-items",
           "limit_of_columns_product_1": "4",
           "product_list_limit_1": "10"
         }
       },
       "1518687231295": {
         "type": "home-product-slide",
+        "disabled": true,
         "settings": {
           "block_product_1": "0px 0px 0px 0px",
           "home_product_title_1": "Viva La 'Rita! 10% Off (Use Code: MARGARITADAY2018)",
@@ -3054,8 +3054,8 @@
       "1513152158016",
       "1495588440911",
       "1518687231295",
-      "1518433144402",
       "1507630666643",
+      "1518433144402",
       "1494062978594",
       "1507633152223",
       "1507629360342",
