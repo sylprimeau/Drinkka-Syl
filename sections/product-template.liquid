@@ -59,7 +59,7 @@ Check if the product is sold out and set a variable to be used below.
                   -{{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:product.compare_at_price_max |round: 0 }}%
                   {% endif %}
                   {% if lable_out %}
-                  <span>out of stock</span>
+                  <span>{{ 'product.out_of_stock' | t }}</span>
                   {% endif %}
                 </div>
                 {% endif %}
@@ -87,7 +87,7 @@ Check if the product is sold out and set a variable to be used below.
                   -{{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:product.compare_at_price_max |round: 0 }}%
                   {% endif %}
                   {% if lable_out %}
-                  <span>out of stock</span>
+                  <span>{{ 'product.out_of_stock' | t }}</span>
                   {% endif %}
                 </div>
                 {% endif %}
@@ -113,7 +113,7 @@ Check if the product is sold out and set a variable to be used below.
                   -{{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:product.compare_at_price_max |round: 0 }}%
                   {% endif %}
                   {% if lable_out %}
-                  <span>out of stock</span>
+                  <span>{{ 'product.out_of_stock' | t }}</span>
                   {% endif %}
                 </div>
                 {% endif %}
@@ -157,7 +157,7 @@ Check if the product is sold out and set a variable to be used below.
                   -{{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:product.compare_at_price_max |round: 0 }}%
                   {% endif %}
                   {% if lable_out %}
-                  <span>out of stock</span>
+                  <span>{{ 'product.out_of_stock' | t }}</span>
                   {% endif %}
                 </div>
                 {% endif %}
@@ -181,7 +181,7 @@ Check if the product is sold out and set a variable to be used below.
                   -{{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:product.compare_at_price_max |round: 0 }}%
                   {% endif %}
                   {% if lable_out %}
-                  <span>out of stock</span>
+                  <span>{{ 'product.out_of_stock' | t }}</span>
                   {% endif %}
                 </div>
                 {% endif %}
@@ -352,22 +352,24 @@ Check if the product is sold out and set a variable to be used below.
 
                       <div class="clear_fix">
                         {% if product.available %}
-                        {% if section.settings.show_quantity_selector %}
-                        <div class="wrap-qty">
-                          <div class="custom-qty">
-                            <input type="text" id="quantity" name="quantity" value="1">
-                            <div class="btn-plus">
-                              <span class="up-qty"><i class="cs-font clever-icon-plus"></i></span>
-                              <span class="down-qty"><i class="cs-font clever-icon-minus"></i></span>
-                            </div>
-                          </div>
-                        </div>
-                        {% endif %}
+													{% if section.settings.show_quantity_selector %}
+													<div class="wrap-qty">
+														<div class="custom-qty">
+															<input type="text" id="quantity" name="quantity" value="1">
+															<div class="btn-plus">
+																<span class="up-qty"><i class="cs-font clever-icon-plus"></i></span>
+																<span class="down-qty"><i class="cs-font clever-icon-minus"></i></span>
+															</div>
+														</div>
+													</div>
+													{% endif %}
 
 
-                        <button type="submit" name="add" class="btn" id="product-add-to-cart" {% if settings.enable_multilang %}data-translate="product.detail.add_cart"{%endif%}>{{'product.detail.add_cart' | t}}</button>
+	                        <button type="submit" name="add" class="btn" id="product-add-to-cart" {% if settings.enable_multilang %}data-translate="product.detail.add_cart"{%endif%}>{{'product.detail.add_cart' | t}}</button>
+{% comment %} Don't need an "unavailable" button because it's already marked "sold out" in two places on the product page
                         {% else %}
-                        <button type="submit" name="add" class="btn unavailable-button" id=" product-add-to-cart"{% if settings.enable_multilang %}data-translate="product.detail.unavailable"{%endif%}>{{'product.detail.unavailable' | t}}</button>
+	                        <button type="submit" name="add" class="btn unavailable-button" id=" product-add-to-cart"{% if settings.enable_multilang %}data-translate="product.detail.unavailable"{%endif%}>{{'product.detail.unavailable' | t}}</button>
+{% endcomment %}
                         {% endif %}
                       </div>
                     </form>
@@ -1092,7 +1094,7 @@ Check if the product is sold out and set a variable to be used below.
           jQuery(".product-inventory span").text("Many in stock");
         }
       } else {
-        jQuery(".product-inventory span").text("Out of stock");
+        jQuery(".product-inventory span").text("Sold out");
       }
       {% endif %}
 

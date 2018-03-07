@@ -64,7 +64,7 @@ Set a class for sold-out and on-sale items
         {{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:item.compare_at_price_max |round: 0 }}%
         {% endif %}
         {% if sold_out %}
-        <span>out of stock</span>
+        <span>{{ 'product.out_of_stock' | t }}</span>
         {% endif %}
       </div>
       {% endif %}

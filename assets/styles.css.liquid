@@ -8440,15 +8440,98 @@ span.close-sibade {opacity: 0;visibility: hidden;}
 
 
 /* sitemap styling */
-.sitemap .categories li {
+.sitemap .category li {
   list-style: none;
   padding: 2px;
 }
 
-.sitemap .categories .category.col-lg-1 {
-  width: 14.285%;
+.sitemap a {
+  color: #777;
 }
 
-.sitemap .brands .category h4 {
+.sitemap h4 {
 	margin-top: 20px;
+	color: #000;
 }
+
+{% comment %}
+.sitemap a:hover {
+	color: #fbe800;
+}
+
+.sitemap .category {
+	color: #444;
+}
+{% endcomment %}
+
+.sitemap .separator {
+	color: #000;
+}
+
+@media (min-width: 1025px) {
+	.sitemap .categories .category.col-lg-1 {
+		width: 14.285%;
+	}
+		
+}
+
+
+
+.notification-bar {
+	background-color: #b59ac9;
+	text-align: center;
+	color: #fff;
+	margin-top: -50px;
+	padding: 0.4em 0;
+	font-size: 1.8em;
+}
+
+.notification-bar #first {
+	margin-bottom: 0.7em;
+}
+
+.notification-bar #second {
+	font-size: 70%;
+}
+
+@media (max-width: 1024px) {
+
+	.notification-bar {
+		font-size: 1.6em;
+		margin-top: 0px;
+	}
+
+}
+
+@media (max-width: 719px) {
+
+	.notification-bar {
+		font-size: 1.4em;
+	}
+	
+	.notification-bar #first {
+		margin-bottom: 0.5em;
+	}
+	
+}
+
+@media (max-width: 524px) {
+
+	.notification-bar {
+		font-size: 1.2em;
+	}
+	
+	.notification-bar #first {
+		margin-bottom: 0.4em;
+	}
+	
+}
+
+@media (max-width: 449px) {
+	
+	.notification-bar {
+		font-size: 1.1em;
+	}
+}
+
+

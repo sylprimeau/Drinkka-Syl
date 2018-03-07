@@ -411,11 +411,11 @@ theme.Product = (function() {
 
   return Product;
 })();
+
 $(document).ready(function() {
   var sections = new theme.Sections();
-
-
   sections.register('map', theme.Maps);
   sections.register('quotes', theme.Quotes);
 });
+
 $(theme.init);
