@@ -24,6 +24,7 @@
 jQuery(function($) {
   $('#how-did-you-hear-about-us').change(function() {
     if ($('#how-did-you-hear-about-us').val() == 'Other') {
+
       $('#how-did-you-hear-about-us-other').parent('p').show();
     } else {
       $('#how-did-you-hear-about-us-other').val('').parent('p').hide();

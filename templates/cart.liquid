@@ -47,8 +47,8 @@
 
 <span class='lion-cart-item-success-notes' data-key='{{item.key}}'></span><span class='lion-cart-item-upsell-notes' data-key='{{item.key}}'></span>
 <span class="saso-cart-item-discount-notes" data-key="{{item.key}}"></span>
-<span class="saso-cart-item-upsell-notes" data-key="{{item.key}}"></span>                                
-                                
+<span class="saso-cart-item-upsell-notes" data-key="{{item.key}}"></span>
+
                     {% if item.product.variants.size > 1 %}
                     <span class="variant_title">{{ item.variant.title }}</span>
                     {% endif %}
@@ -86,7 +86,8 @@
             {% comment %}
             name="checkout" is required for the update button to work
             {% endcomment %}
-         {% include 'hear-about-us' %}
+            {% include 'delivery-date-time' %}
+            {% include 'hear-about-us' %}
           </div>
 
 
@@ -109,5 +110,4 @@
 
   <!-- End cart -->
 
-</div> 
-
+</div>

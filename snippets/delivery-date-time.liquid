@@ -1,0 +1,66 @@
+{% assign time-choices = "12AM - 03PM, 03PM - 06PM, 06PM - 09PM, 09PM - 12AM" %}
+
+<div style="width:300px; clear:both;">
+  <p class="cart-attribute__field">
+    <label for="delivery-date">Pick a delivery date:</label><br>
+      <select id="delivery-date" name="attributes[delivery-date]">
+        <option value=""{% if cart.attributes.delivery-date == "" %} selected{% endif %}>Please Select Delivery Date:</option>
+        <option value="Today" {% if cart.attributes.delivery-date == "Today" %} selected{% endif %}>Today</option>
+        <option value="Tomorrow" {% if cart.attributes.delivery-date == "Tomorrow" %} selected{% endif %}>Tomorrow</option>
+        <option value="Specific Date" {% if cart.attributes.delivery-date == "Specific Date" %} selected{% endif %}>Specific Date</option>
+      </select>
+    <p id="SpecDate" style="{% unless cart.attributes.delivery-date == 'Specific Date' %}display:none;{% endunless %}">
+      <label for="delivery-date-specific">Select Date:</label>
+      <input id="delivery-date-specific" type="text" name="attributes[delivery-date-specific]" value="{{ cart.attributes.delivery-date-specific }}" />
+    </p>
+  </p>
+    <br>
+</div>
+<div>
+  <p class="cart-attribute__field">
+    <label>Preferred Time of Delivery:</label><br>
+    <select id="preferred-time-of-delivery" name="attributes[delivery-time]">
+      <option selected="selected" disabled="disabled">Select Time:</option>
+        {% assign time-choicesArray = time-choices | split: ',' %}
+        {% for o in time-choicesArray %}
+          {% assign time-choices = o | strip %}
+      <option value="{{time-choices}}"{% if cart.attributes.delivery-time == time-choices %} selected{% endif %}>{{time-choices}}</option>
+        {% endfor %}
+    </select>
+  </p>
+  <br>
+</div>
+
+
+<script type="text/javascript">
+jQuery(function($) {
+    $('#delivery-date').change(function() {
+      if ($('#delivery-date').val() == 'Specific Date') {
+          $('#SpecDate').show();
+          $("#preferred-time-of-delivery option").removeAttr("disabled");
+      } else if ($('#delivery-date').val() == 'Today'){
+          var timeToday = new Date().getHours();
+          var timeBased = 12;
+          for(var i = 0; i <=3; i++ ){
+              if(timeToday >= timeBased){
+                document.getElementById("preferred-time-of-delivery").options[i].disabled = true;
+              }
+              timeBased =timeBased +3 ;
+          }
+          $('#SpecDate').hide();
+      } else {
+          $("#preferred-time-of-delivery option").removeAttr("disabled");
+          $('#SpecDate').hide();
+      }
+    });
+
+    $(document).ready( function() {
+          $(function() {
+            $("#delivery-date-specific").datepicker( {
+              minDate: +2,
+              maxDate: '+2M',
+            } );
+          });
+        });
+});
+</script>
