@@ -351,6 +351,44 @@ Check if the product is sold out and set a variable to be used below.
 
 
                       <div class="clear_fix">
+
+                      	{% for tag in product.tags %}
+                      		{% if tag contains "Beer" %}
+                      		
+														<div class="perishable-modal show">
+															<p>This item requires 2-3 days for delivery because it is perishable and cannot be kept in our warehouse.</p>
+														</div>
+														
+														<style>
+															.perishable-modal {
+																width: 400px;
+																height: 400px;
+																background-color: green;
+																position: fixed;
+																top: 50%;
+																left: 50%;
+																transform: translate(-50%, -50%);
+																display: none;
+																z-index: 100; 
+																cursor: pointer;
+															}
+
+															.perishable-modal .show {
+																display: block;
+															}
+														</style>
+
+														<script>
+															var modal = document.querySelector(".perishable-modal");
+															modal.addEventListener("click", function() {
+															alert("hey");
+															modal.classList.toggle("show");
+															});
+														</script>
+                       
+                      		{% endif %}
+                      	{% endfor %}
+                       
                         {% if product.available %}
 													{% if section.settings.show_quantity_selector %}
 													<div class="wrap-qty">

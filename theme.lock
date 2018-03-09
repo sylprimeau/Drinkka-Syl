@@ -396,7 +396,7 @@ layout/SWYM_BACKUP_theme.liquid:
 layout/theme-backup-special.liquid:
   development: 2018-02-23T16:51:24+08:00   dcee0e4d275b9f1811a762ffaa57af68
 layout/theme.liquid:
-  development: 2018-03-05T19:20:01+08:00   2574652ef82b533f0c3953ccfdb1e9d2
+  development: 2018-03-08T22:37:00+08:00   c2e114eee0f99940802857663640e26a
 locales/en.default.json:
   development: 2018-02-26T15:32:23+08:00   3a1bc7deada0a6fec02a5df5afbc771f
 sections/about-template.liquid:
@@ -442,7 +442,7 @@ sections/notification-bar.liquid:
 sections/product-loadmore.liquid:
   development: 2018-02-23T16:50:48+08:00   8d345f9bef4d564f0b7014ddc09cc30f
 sections/product-template.liquid:
-  development: 2018-03-05T19:21:33+08:00   f9139d8ad53a226831fe77d7988e360f
+  development: 2018-03-09T14:04:13+08:00   6adec004323d7eb3203fd3d599f62f67
 sections/slideshow.liquid:
   development: 2018-02-23T16:50:48+08:00   d344793d84f2066d2e95945c7404eb38
 sections/tabs-product.liquid:
