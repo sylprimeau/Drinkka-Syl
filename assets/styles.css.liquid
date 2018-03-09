@@ -8534,4 +8534,36 @@ span.close-sibade {opacity: 0;visibility: hidden;}
 	}
 }
 
+.perishable-modal {
+	background-color: #efefef;
+	border: 5px solid #FC1450;
+	width:80%;
+	max-width: 50em;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 100;
+	display: none;
+}
 
+.perishable-modal p {
+	margin: 2em;
+}
+
+.perishable-modal .OK-btn {
+	height: 2em;
+	width: 5em;
+	background-color: #FC1450;
+	margin: 1em auto;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	line-height: 2em;
+}
+
+.perishable-modal.show {
+	display: fixed;
+}

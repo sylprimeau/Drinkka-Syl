@@ -364,7 +364,7 @@ assets/styles-rtl.css:
 assets/styles-setting.css.liquid:
   development: 2018-02-23T16:51:22+08:00   752c5d2925b4351398927945f4324c51
 assets/styles.css.liquid:
-  development: 2018-02-23T16:51:23+08:00   af5de57e1bfb05d92be9145c29ee9b11
+  development: 2018-03-09T16:27:39+08:00   d6d28c580cc4fbfb64ae14a8aecdcecb
 assets/text-title.png:
   development: 2018-02-23T16:51:23+08:00   406f56e52b9ef84002ef9cf2f4b89898
 assets/theme.js:
@@ -442,7 +442,7 @@ sections/notification-bar.liquid:
 sections/product-loadmore.liquid:
   development: 2018-02-23T16:50:48+08:00   8d345f9bef4d564f0b7014ddc09cc30f
 sections/product-template.liquid:
-  development: 2018-03-09T15:35:48+08:00   aa7de81915053ec26bc15ceb3cad7548
+  development: 2018-03-09T16:27:41+08:00   6900f0f0d3b442e4be61e179e366f369
 sections/slideshow.liquid:
   development: 2018-02-23T16:50:48+08:00   d344793d84f2066d2e95945c7404eb38
 sections/tabs-product.liquid:
