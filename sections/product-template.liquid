@@ -352,40 +352,58 @@ Check if the product is sold out and set a variable to be used below.
 
                       <div class="clear_fix">
 
+                   			{% assign count = 0 %}
                       	{% for tag in product.tags %}
-                      		{% if tag contains "Beer" %}
-                      		
-														<div class="perishable-modal show">
-															<p>This item requires 2-3 days for delivery because it is perishable and cannot be kept in our warehouse.</p>
-														</div>
-														
-														<style>
-															.perishable-modal {
-																width: 400px;
-																height: 400px;
-																background-color: green;
-																position: fixed;
-																top: 50%;
-																left: 50%;
-																transform: translate(-50%, -50%);
-																display: none;
-																z-index: 100; 
-																cursor: pointer;
-															}
+                      		{% if tag contains "Beer" %} 
+                      			{% assign count = count | plus: 1 %}
+                      			{% if count == 1 %}
+															<div class="perishable-modal show">
+																<p>Please be advised that this product cannot be stored in our warehouse because it is perishable and will therefore require 2-3 days delivery time. Thank you for your understanding!</p>
+																<div class="OK-btn">OK</div>
+															</div>
+															<style>
+																.perishable-modal {
+																	background-color: #efefef;
+																	border: 5px solid #FC1450;
+																	width:80%;
+																	max-width: 50em;
+																	font-size: 1.3em;
+																	line-height: 1.3em;
+																	position: fixed;
+																	top: 50%;
+																	left: 50%;
+																	transform: translate(-50%, -50%);
+																	z-index: 100;
+																	display: none;
+																}
 
-															.perishable-modal .show {
-																display: block;
-															}
-														</style>
+																.perishable-modal p {
+																	margin: 2em;
+																}
 
-														<script>
-															var modal = document.querySelector(".perishable-modal");
-															modal.addEventListener("click", function() {
-															alert("hey");
-															modal.classList.toggle("show");
-															});
-														</script>
-                       
+																.OK-btn {
+																	height: 2em;
+																	width: 5em;
+																	background-color: #FC1450;
+																	margin: 1em auto;
+																	color: white;
+																	cursor: pointer;
+																	text-align: center;
+																	line-height: 2em;
+																}
+
+																.perishable-modal.show {
+																	display: fixed;
+																}
+															</style>
+															<script>
+																var modal = document.querySelector(".perishable-modal");
+																var OKbtn = document.querySelector(".perishable-modal .OK-btn");
+																OKbtn.addEventListener("click", function() {
+																	modal.classList.toggle("show");
+																});
+															</script>
+                     				{% endif %}
                       		{% endif %}
                       	{% endfor %}
                        

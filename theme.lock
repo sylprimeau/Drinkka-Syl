@@ -442,7 +442,7 @@ sections/notification-bar.liquid:
 sections/product-loadmore.liquid:
   development: 2018-02-23T16:50:48+08:00   8d345f9bef4d564f0b7014ddc09cc30f
 sections/product-template.liquid:
-  development: 2018-03-09T14:04:13+08:00   6adec004323d7eb3203fd3d599f62f67
+  development: 2018-03-09T15:35:48+08:00   aa7de81915053ec26bc15ceb3cad7548
 sections/slideshow.liquid:
   development: 2018-02-23T16:50:48+08:00   d344793d84f2066d2e95945c7404eb38
 sections/tabs-product.liquid:
