@@ -8534,26 +8534,38 @@ span.close-sibade {opacity: 0;visibility: hidden;}
 	}
 }
 
-.perishable-modal {
+.popup-container {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.popup-container.flex {
+	display: flex;
+}
+
+.popup-notice {
+	max-width: 50%;
+	max-height: 50%;
 	background-color: #efefef;
 	border: 5px solid #FC1450;
-	width:80%;
-	max-width: 50em;
 	font-size: 1.3em;
 	line-height: 1.3em;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	z-index: 100;
-	display: none;
 }
 
-.perishable-modal p {
+.popup-notice p {
 	margin: 2em;
 }
-
-.perishable-modal .OK-btn {
+ 
+.popup-notice .OK-btn {
 	height: 2em;
 	width: 5em;
 	background-color: #FC1450;
@@ -8562,8 +8574,9 @@ span.close-sibade {opacity: 0;visibility: hidden;}
 	cursor: pointer;
 	text-align: center;
 	line-height: 2em;
+	z-index: 101;
 }
 
-.perishable-modal.show {
-	display: fixed;
+.product-bg .container.blur {
+	filter: blur(2px);
 }
