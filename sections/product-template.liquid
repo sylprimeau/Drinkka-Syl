@@ -37,7 +37,7 @@ Check if the product is sold out and set a variable to be used below.
   {% assign content = content | split: '[/tabs]' | last %}
   {% endif %}
 
-  <div class="container blur">
+  <div class="container">
     <div class="row pro-layout1" id="product">
       {% if section.settings.enable_block_right %}
       <div class="col-xs-12 col-main col-md-9 col-sm-9">
@@ -374,6 +374,28 @@ Check if the product is sold out and set a variable to be used below.
                         {% endif %}
                       </div>
                     </form>
+
+										{% assign count = 0 %}
+										{% for tag in product.tags %}
+											{% if tag contains "Beer" %} 
+												{% assign count = count | plus: 1 %}
+												{% if count == 1 %}
+												<div class="popup-container flex">
+													<div class="popup-notice show">
+														<p>Please be advised that this product cannot be stored in our warehouse because it is perishable and will therefore require 2-3 days delivery time. Thank you for your understanding!</p>
+														<div class="OK-btn">OK</div>
+													</div>
+												</div>
+												<script>
+													var container = document.querySelector(".popup-container");
+													var OKbtn = document.querySelector(".popup-notice .OK-btn");
+													OKbtn.addEventListener("click", function() {
+														container.classList.toggle("flex");
+													});
+												</script>
+												{% endif %}
+											{% endif %}
+										{% endfor %}
 
                   </div>
 
@@ -1249,31 +1271,6 @@ Check if the product is sold out and set a variable to be used below.
 
     </script>
 	</div>
-	
-{% assign count = 0 %}
-{% for tag in product.tags %}
-	{% if tag contains "Beer" %} 
-		{% assign count = count | plus: 1 %}
-		{% if count == 1 %}
-		<div class="popup-container flex">
-			<div class="popup-notice show">
-				<p>Please be advised that this product cannot be stored in our warehouse because it is perishable and will therefore require 2-3 days delivery time. Thank you for your understanding!</p>
-				<div class="OK-btn">OK</div>
-			</div>
-		</div>
-		<script>
-			var background = document.querySelector(".product-bg .container");
-			var container = document.querySelector(".popup-container");
-			var notice = document.querySelector(".popup-notice");
-			var OKbtn = document.querySelector(".popup-notice .OK-btn");
-			OKbtn.addEventListener("click", function() {
-				container.classList.toggle("flex");
-				background.classList.toggle("blur");
-			});
-		</script>
-		{% endif %}
-	{% endif %}
-{% endfor %}
 	
 </div>
 	
