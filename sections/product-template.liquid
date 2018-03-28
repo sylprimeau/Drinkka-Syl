@@ -377,7 +377,7 @@ Check if the product is sold out and set a variable to be used below.
 
 										{% assign count = 0 %}
 										{% for tag in product.tags %}
-											{% if tag contains "Beer" %} 
+											{% if tag contains "preorder" %} 
 												{% assign count = count | plus: 1 %}
 												{% if count == 1 %}
 												<div class="popup-container flex">
